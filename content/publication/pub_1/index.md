@@ -2,7 +2,7 @@
 date: "2019-01-07T00:00:00"
 publication_types:
 - "2"
-authors:
+authors: Who Who
 - admin
 publishDate: "2019-01-07T00:00:00"
 title: "Current practices in meta-regression in psychology, education, and medicine"
