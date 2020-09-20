@@ -1,9 +1,11 @@
 ---
 title: "An example conference paper"
 authors:
+- Stephanie A. Casey
+- Andrew M. Ross
+- Randall E. Groth
 - admin
-- Robert Ford
-date: "2013-07-01T00:00:00Z"
+date: "2015-07-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -19,10 +21,14 @@ publication_types: ["1"]
 publication: In *Source Themes Conference*
 publication_short: In *STC*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Students come to the learning of categorical association with many misconceptions. The purpose of
+this study was to determine the effectiveness of novel curriculum materials to improve mathematics
+teachers’ knowledge of students’ conceptions regarding categorical association. Results showed that
+prior to use of the materials, teachers’ knowledge was mostly limited to variations on one
+misconception. Following use of the materials, they were more broadly aware of a number of
+different misconceptions and improved their ability to analyze categorical data for association.
 
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+
 
 tags:
 - Source Themes
@@ -31,7 +37,7 @@ featured: true
 links:
 - name: Custom Link
   url: http://example.org
-url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
+url_pdf: http://www.pmena.org/pmenaproceedings/PMENA%2037%202015%20Proceedings.pdf
 url_code: '#'
 url_dataset: '#'
 url_poster: '#'
