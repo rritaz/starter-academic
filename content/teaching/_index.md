@@ -7,6 +7,7 @@ header:
   caption: ""
   image: ""
 
+Courses: 
 - Data Science III
 - Data Science II
 - Data Science I

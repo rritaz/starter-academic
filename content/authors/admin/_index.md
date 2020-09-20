@@ -23,6 +23,8 @@ interests:
 - Causal Inference
 - Education Statistics
 - Social Policy
+- Data Science
+
 
 
 education:
