@@ -1,7 +1,10 @@
 ---
 # Course title, summary, and position.
 linktitle: An Example Course
-summary: Learn how to use Academic's docs layout for publishing online courses, software documentation, and tutorials.
+summary: 
+- Data Science III
+- Data Science II
+- Data Science I
 weight: 1
 
 # Page metadata.
