@@ -25,9 +25,9 @@ menu:
 
 This feature can be used for publishing content such as:
 
-* **Online courses**
-* **Project or software documentation**
-* **Tutorials**
+* Data Science III
+* Data Science II
+* Data Science I
 
 The `courses` folder may be renamed. For example, we can rename it to `docs` for software/project documentation or `tutorials` for creating an online course.
 
