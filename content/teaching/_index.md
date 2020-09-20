@@ -6,6 +6,12 @@ layout: docs  # Do not modify.
 header:
   caption: ""
   image: ""
+  
+Colors:
+
+* Red
+* Green
+* Blue
 
 ---
 
