@@ -7,11 +7,6 @@ header:
   caption: ""
   image: ""
   
-Colors:
-
-* Red
-* Green
-* Blue
 
 ---
 
