@@ -1,6 +1,6 @@
 ---
 title: "Developing teachers' knowledge of content and students for teaching categorical association"
-date: "under review"
+date: "2015"
 # publishDate: 2019-09-19T21:11:36.391446Z
 authors: ["Stephanie A. Casey", "Andrew M. Ross", "Randall E. Groth", "Rrita Zejnullahi"]
 publication_types: ["2"]

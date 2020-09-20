@@ -1,6 +1,6 @@
 ---
 title: "An evaluation of statistical methods for aggregate patterns of replication failure"
-date: "under review"
+date: "2020"
 # publishDate: 2019-09-19T21:11:36.391446Z
 authors: ["Jacob M. Schauer", "Kaitlyn G. Fitzgerald", "Sarah Peko-Spicer", "Mena C. R. Whalen", "Rrita Zejnullahi", "Larry V. Hedges"]
 publication_types: ["2"]
