@@ -23,11 +23,10 @@
   url = "teaching/"
   weight = 30
 
-#[[main]]
-#  name = "CV"
-# #name of CV file
-#  url = "files/CV.pdf"
-#  weight = 40
+[[main]]
+  name = "CV"
+  url = "files/CV.pdf"
+  weight = 40
 
 [[main]]
   name = "Contact"
