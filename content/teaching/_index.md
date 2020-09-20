@@ -7,9 +7,9 @@ header:
   caption: ""
   image: ""
 
-* **Online courses**
-* **Project or software documentation**
-* **Tutorials**
+ **Online courses**
+ **Project or software documentation**
+ **Tutorials**
 
 ---
 
