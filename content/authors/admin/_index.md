@@ -21,9 +21,8 @@ organizations:
 interests:
 - Meta-analysis
 - Causal Inference
-- Education Statistics
-- Social Policy
 - Data Science
+- Social Policy
 
 
 
@@ -32,7 +31,17 @@ education:
   - course: Ph.D. in Statistics
     institution: Northwestern University
     year: 2021 (expected)
-    courses:
+  - course: M.S. in Statistics
+    institution: Northwestern University
+    year: 2028 
+  - course: M.A. in Mathematics
+    institution: Eastern Michigan University
+    year: 2015 
+  - course: B.S. in Applied Arts and Sciences
+    institution: Rochester Institute of Technology
+    year: 2011 
+
+
 
 
 # Social/Academic Networking
