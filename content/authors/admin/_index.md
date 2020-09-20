@@ -28,13 +28,13 @@ interests:
 
 education:
   courses:
-  - course: Ph.D. in Statistics
+  - course: PhD in Statistics
     institution: Northwestern University
     year: 2021 (expected)
-  - course: M.A. in Mathematics
+  - course: MA in Mathematics
     institution: Eastern Michigan University
     year: 2015 
-  - course: B.S. in Applied Arts and Sciences
+  - course: BS in Applied Arts and Sciences
     institution: Rochester Institute of Technology
     year: 2011 
 
