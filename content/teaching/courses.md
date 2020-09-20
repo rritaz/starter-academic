@@ -23,7 +23,7 @@ weight = 50
 
 +++
 
-### At UT Austin
+### At Northwestern
 
 - One
 - Two
