@@ -37,7 +37,7 @@ featured: true
 links:
 - name: Custom Link
   url: http://example.org
-url_pdf: http://www.pmena.org/pmenaproceedings/PMENA%2037%202015%20Proceedings.pdf
+#url_pdf: http://www.pmena.org/pmenaproceedings/PMENA%2037%202015%20Proceedings.pdf
 url_code: '#'
 url_dataset: '#'
 url_poster: '#'
