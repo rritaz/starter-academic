@@ -31,9 +31,6 @@ education:
   - course: Ph.D. in Statistics
     institution: Northwestern University
     year: 2021 (expected)
-  - course: M.S. in Statistics
-    institution: Northwestern University
-    year: 2028 
   - course: M.A. in Mathematics
     institution: Eastern Michigan University
     year: 2015 
