@@ -7,10 +7,9 @@ header:
   caption: ""
   image: ""
 
-Courses: 
-- Data Science III
-- Data Science II
-- Data Science I
+* **Online courses**
+* **Project or software documentation**
+* **Tutorials**
 
 ---
 
