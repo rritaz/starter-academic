@@ -5,7 +5,7 @@ name = "my_theme"
 light = true
 
 # Primary
-primary = "#5e9c96"
+primary = "#3aa69b"
 
 # Menu
 menu_primary = "#FFFFFF" # 500
@@ -13,7 +13,7 @@ menu_primary = "#FFFFFF" # 500
 # white
 menu_text = "#606060"
 # when you hover over it
-menu_text_active = "#5e9c96" # A100
+menu_text_active = "#3aa69b" # A100
 menu_title = "#606060"
 
 # Home sections
