@@ -1,31 +1,33 @@
 +++
-# Projects widget.
-widget = "list"
-active = true
-date = 2016-04-20T00:00:00
+widget = "experience"
+headless = true  # This file represents a page section.
 
-# Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
-title = "Teaching"
-subtitle = ""
+# ... Put Your Section Options Here (title etc.) ...
 
-# Order that this section will appear in.
-weight = 50
+# Date format for experience
+#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
+date_format = "Jan 2006"
 
-# Content.
-# Display content from the following folder.
-# For example, `folder = "project"` displays content from `content/project/`.
-# folder = "teaching"
-
-# View.
-# Customize how projects are displayed.
-# Legend: 0 = list, 1 = cards.
-# view = 1
+# Experiences.
+#   Add/remove as many `[[experience]]` blocks below as you like.
+#   Required fields are `title`, `company`, and `date_start`.
+#   Leave `date_end` empty if it's your current employer.
+#   Begin/end multi-line descriptions with 3 quotes `"""`.
+[[experience]]
+  title = "CEO"
+  company = "GenCoin"
+  company_url = ""
+  location = "California"
+  date_start = "2017-01-01"
+  date_end = ""
+  description = """
+  Responsibilities include:
+  
+  * Analysing
+  * Modelling
+  * Deploying
+  """
 
 +++
 
-At Northwestern
 
-- One
-- Two
-- Three 
-- Four
