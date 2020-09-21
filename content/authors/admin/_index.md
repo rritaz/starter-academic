@@ -21,9 +21,8 @@ organizations:
 interests:
 - Meta-analysis
 - Causal Inference
-- Data Science
-- Social Policy
 - Education Statistics
+- Data Science
 
 education:
   courses:
