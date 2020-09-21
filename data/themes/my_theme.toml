@@ -8,7 +8,7 @@ light = true
 primary = "#3aa69b"
 
 # Menu
-menu_primary = "#f7fcfb"   #"#FFFFFF" # 500
+menu_primary = "#FFFFFF" # 500
 
 # white
 menu_text = "#606060"
