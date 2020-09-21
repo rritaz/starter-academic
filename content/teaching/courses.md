@@ -1,6 +1,6 @@
 +++
 # Projects widget.
-widget = "blank"
+widget = "list"
 active = true
 date = 2016-04-20T00:00:00
 
@@ -23,7 +23,7 @@ weight = 50
 
 +++
 
-### At Northwestern
+At Northwestern
 
 - One
 - Two
