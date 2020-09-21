@@ -1,6 +1,6 @@
 +++
 # Teaching
 type = "widget_page"
-headless = false  # Teaching is not headless. 
+headless = true  # Teaching is not headless. 
 +++
 
