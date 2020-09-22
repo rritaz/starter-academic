@@ -27,7 +27,7 @@ subtitle = ""
   [content.filters]
     tag = "working"
     category = ""
-    publication_type = "8"
+    publication_type = "9"
     author = ""
     exclude_featured = false
   
