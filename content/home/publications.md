@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
-title = "Working papers"
+title = "In Progress"
 subtitle = ""
 
 [content]
@@ -27,9 +27,9 @@ subtitle = ""
   [content.filters]
     tag = ""
     category = ""
-    publication_type = "3"
+    publication_type = "1"
     author = ""
-    exclude_featured = true
+    exclude_featured = false
   
 [design]
   # Toggle between the various page layout types.
