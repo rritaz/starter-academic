@@ -66,3 +66,5 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+
+Hedges, L. V., Tipton, E., Zejnullahi, R., Diaz, K. G. Adjusting for covariates with the standardized mean difference effect size. 
