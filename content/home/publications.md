@@ -67,12 +67,18 @@ subtitle = ""
  css_class = ""
 +++
 
-@article{aggregate_metrics,
- abstract = {Students come to the learning of categorical association with many misconceptions. The purpose of this study was to determine the effectiveness of novel curriculum materials to improve mathematics teachers’ knowledge of students’ conceptions regarding categorical association. Results showed that prior to use of the materials, teachers’ knowledge was mostly limited to variations on one misconception. Following use of the materials, they were more broadly aware of a number of different misconceptions and improved their ability to analyze categorical data for association.},
- author = {Stephanie A. Casey and Andrew M. Ross and Randall E. Groth and Rrita Zejnullahi},
- journal = {Proceedings of the thirty-seventh annual meeting of the North American Chapter of the International Group for the Psychology of Mathematics Education},
- title = {Developing teachers' knowledge of content and students for teaching categorical association},
- pubstate = {2015},
- year = {2015}
-}
+---
+title: "Adjusting for Covariates with the Standardized Mean Difference Effect Size"
+date: ""
+#publishDate: 2020-09-19T21:11:36.391446Z
+authors: ["Larry V. Hedges", "Elizabeth Tipton", "Rrita Zejnullahi", "Karina G. Diaz"]
+publication_types: ["2"]
+abstract: ""
+featured: true
+publication: ""
+#url_pdf: "pdf/aggregate_patterns_replication.pdf"
+---
+
+
+
 
