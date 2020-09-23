@@ -10,11 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Ph.D. Candidate, Statistics
+role: Ph.D. Candidate
 
 # Organizations/Affiliations
 organizations:
-- name: Northwestern University
+- name: Department of Statistics\
+        Northwestern University
   url: ""
 
 
