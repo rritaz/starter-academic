@@ -27,7 +27,7 @@ interests:
 
 education:
   courses:
-  - course: PhD in Statistics
+  - course: PhD, MS in Statistics
     institution: Northwestern University
     year: 2021 (expected)
   - course: MA in Mathematics
