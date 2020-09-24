@@ -68,7 +68,7 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD candidate in Statistics at Northwestern University and a member of the Statistics for Evidence-Based Policy and Practice (STEPP) Center lab. My research is centered on statistical methods for meta-analysis, with a particular focus on small samples, and effect sizes and effect size estimation in randomized and quasi experiments. This work is motivated by applications in the social sciences. 
+I am a PhD candidate in Statistics at Northwestern University and a member of the [Statistics for Evidence-Based Policy and Practice (STEPP) Center](https://sites.northwestern.edu/steppcenter/about/) lab. My research is centered on statistical methods for meta-analysis, with a particular focus on small samples, and effect sizes and effect size estimation in randomized and quasi experiments. This work is motivated by applications in the social sciences. 
 
 
 
