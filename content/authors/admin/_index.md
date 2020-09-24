@@ -68,6 +68,7 @@ user_groups:
 - Visitors
 ---
 
-I am a 4th year doctoral student in [Northwestern University's Department of Statistics] (https://www.statistics.northwestern.edu/) and a graduate affiliate of the [Statistics for Evidence-Based Policy and Practice (STEPP) Center] (https://www.stepp.center).
+I am a PhD candidate in Statistics at Northwestern University and a member of the Statistics for Evidence-Based Policy and Practice (STEPP) Center lab. My research is centered on statistical methods for meta-analysis, with a particular focus on small samples, and effect size estimation in randomized and quasi experiments. 
+
 
 
