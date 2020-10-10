@@ -1,5 +1,5 @@
 ---
-title: "Adjusting for Covariates with the Standardized Mean Difference Effect Size"
+title: "Adjusting for covariates with the standardized mean difference effect size"
 date: "in preparation"
 #publishDate: 2020-09-19T21:11:36.391446Z
 authors: ["Larry V. Hedges", "Elizabeth Tipton", "Rrita Zejnullahi", "Karina G. Diaz"]
