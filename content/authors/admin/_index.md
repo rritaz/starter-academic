@@ -21,9 +21,9 @@ organizations:
 
 interests:
 - Meta-analysis
-- Experimental Design
 - Causal Inference
 - Data Science
+- Statistics Education
 
 education:
   courses:
