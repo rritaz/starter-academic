@@ -69,6 +69,6 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD candidate in [Statistics](https://statistics.northwestern.edu/) at [Northwestern University](https://www.northwestern.edu/) and a member of the [Statistics for Evidence-Based Policy and Practice (STEPP) Center](https://sites.northwestern.edu/steppcenter/about/) lab. My research is focused on statistical methods for meta-analysis, particularly as applied to a small collection of studies, and effect size estimation in randomized experiments. 
+I am a PhD candidate in [Statistics](https://statistics.northwestern.edu/) at [Northwestern University](https://www.northwestern.edu/) and a member of the [Statistics for Evidence-Based Policy and Practice (STEPP) Center](https://sites.northwestern.edu/steppcenter/about/) lab. My research is in statistical methods for meta-analysis, particularly as applied to a small collection of studies, and effect size estimation in randomized experiments. 
 
 
