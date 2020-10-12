@@ -16,7 +16,7 @@ role: PhD Candidate
 organizations:
 - name: Department of Statistics
         Northwestern University
-  url: "https://statistics.northwestern.edu/"
+  url: ""
 
 
 interests:
