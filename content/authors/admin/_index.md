@@ -21,8 +21,8 @@ organizations:
 
 interests:
 - Meta-analysis
+- Experimental design
 - Causal inference
-- Experimental designs
 - Data science
 
 
