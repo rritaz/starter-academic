@@ -69,5 +69,5 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD candidate in [Statistics](https://statistics.northwestern.edu/) at Northwestern University and a member of the [Statistics for Evidence-Based Policy and Practice (STEPP) Center](https://sites.northwestern.edu/steppcenter/about/) Lab in the [Institute for Policy Research](https://www.ipr.northwestern.edu/). My research interests are in the development and use of meta-analysis methods for evidence-based policy, with a particular emphasis on the social sciences. 
+I am a PhD candidate in [Statistics](https://statistics.northwestern.edu/) at Northwestern University and a member of the [Statistics for Evidence-Based Policy and Practice (STEPP) Center](https://sites.northwestern.edu/steppcenter/about/) Lab within the [Institute for Policy Research](https://www.ipr.northwestern.edu/). My research interests are in the development and use of meta-analysis methods for evidence-based policy, with a particular focus on the social sciences. 
 
