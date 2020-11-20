@@ -60,7 +60,7 @@ social:
   link: https://github.com/rritaz
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "rritazejnullahi2020@u.northwestern.edu"
+email: "rritazejnullahi@u.northwestern.edu"
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
@@ -69,5 +69,5 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD candidate in [Statistics](https://statistics.northwestern.edu/) at Northwestern University and a member of the [Statistics for Evidence-Based Policy and Practice (STEPP)](https://sites.northwestern.edu/steppcenter/about/) Center based at the [Institute for Policy Research](https://www.ipr.northwestern.edu/) at Northwestern. My research interests are in the development and use of meta-analysis methods for evidence-based policy, with a particular focus on the social sciences. 
+I am a PhD candidate in [Statistics](https://statistics.northwestern.edu/) at Northwestern University and a member of the [Statistics for Evidence-Based Policy and Practice (STEPP) Center](https://sites.northwestern.edu/steppcenter/about/) based at the [Institute for Policy Research](https://www.ipr.northwestern.edu/) at Northwestern. My research interests are in the development and use of meta-analysis methods for evidence-based policy, with a particular focus on the social sciences. 
 
