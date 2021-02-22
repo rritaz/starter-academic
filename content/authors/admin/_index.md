@@ -69,7 +69,12 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD candidate in [Statistics](https://statistics.northwestern.edu/) at Northwestern University and a member of the [Statistics for Evidence-Based Policy and Practice (STEPP) Center](https://sites.northwestern.edu/steppcenter/about/) based at the Institute for Policy Research at Northwestern. My research interests are in the development and use of meta-analysis methods for evidence-based policy and practice in education, medicine and the social sciences. I also seek to understand problems in the formulation of effect sizes and effect size estimators in randomized experiments and quasi-experimental designs, particularly when primary studies adjust for covariates.
+I am a PhD candidate in [Statistics](https://statistics.northwestern.edu/) at Northwestern University and a member of the [Statistics for Evidence-Based Policy and Practice (STEPP) Center](https://sites.northwestern.edu/steppcenter/about/) based at the Institute for Policy Research at Northwestern. 
+
+I am interested in the development and use of meta-analysis methods for evidence-based policy and practice in education, medicine and the social sciences. In particular, I am interested in the application of meta-analysis to a relatively small collection of studies and the formulation of effect sizes and effect size estimators in randomized experiments and quasi-experiments when adjusting for covariates. 
+
+My primary objective is to provide advice to practitioners about best practices for use of meta-analysis methods in a small sample context, with the overarching goal of promoting evidence-based decisions about education-relevant outcomes, human health and overall social good.
+
 
 
 
