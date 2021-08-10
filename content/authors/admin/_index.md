@@ -52,9 +52,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/rrita_z
-# - icon: google-scholar
-#   icon_pack: ai
-#   link: https://scholar.google.com/citations?user=vrPDTgsAAAAJ
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=1DLY2Z8AAAAJ&hl=en
 - icon: github
   icon_pack: fab
   link: https://github.com/rritaz
