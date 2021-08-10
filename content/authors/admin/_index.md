@@ -31,14 +31,15 @@ education:
   - course: PhD in Statistics
     institution: Northwestern University
     year: 2021 
+  - course: MS in Statistics
+    institution: Northwestern University
+    year: 2018 
   - course: MA in Mathematics
     institution: Eastern Michigan University
     year: 2015 
   - course: BS in Applied Arts and Sciences
     institution: Rochester Institute of Technology
-    year: 2011 
-
-
+    year: 2011
 
 
 # Social/Academic Networking
