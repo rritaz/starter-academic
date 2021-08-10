@@ -69,7 +69,7 @@ user_groups:
 - Visitors
 ---
 
-I am a postdoctoral scholar in the [Department of Statistics](https://stat.uw.edu/) at the University of Washington, collaborating with Tyler McCormick. My current work focuses on developing a framework for policy decisions based on predictions from statistical and machine learning models.
+I am a postdoctoral scholar in the [Department of Statistics](https://stat.uw.edu/) at the University of Washington, collaborating with Dr. Tyler McCormick on developing a framework for policy decisions based on predictions from statistical and machine learning models.
 
 I received my PhD in [Statistics](https://statistics.northwestern.edu/) from Northwestern University and was a member of the  [Statistics for Evidence-Based Policy and Practice (STEPP) Center](https://sites.northwestern.edu/steppcenter/about/) based at the Institute for Policy Research at Northwestern. My research focused on the development and use of meta-analysis methods for evidence-based policy and practice in education, medicine and the social sciences. I also sought to understand problems in the formulation of effect sizes and effect size estimators in randomized experiments and quasi-experiments when adjusting for covariates. 
 
