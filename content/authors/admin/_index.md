@@ -10,27 +10,27 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD Candidate
+role: Postdoctoral scholar
 
 # Organizations/Affiliations
 organizations:
 - name: Department of Statistics
-        Northwestern University
+        University of Washington
   url: ""
 
 
 interests:
 - Meta-analysis
 - Causal inference
-- Experimental design
 - Data science
+- Social policy
 
 
 education:
   courses:
   - course: PhD in Statistics
     institution: Northwestern University
-    year: 2021 (expected)
+    year: 2021 
   - course: MA in Mathematics
     institution: Eastern Michigan University
     year: 2015 
@@ -49,9 +49,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: "mailto:rritazejnullahi2020@u.northwestern.edu" 
-# - icon: twitter
-#   icon_pack: fab
-#   link: https://twitter.com/jepusto
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/rrita_z
 # - icon: google-scholar
 #   icon_pack: ai
 #   link: https://scholar.google.com/citations?user=vrPDTgsAAAAJ
@@ -69,9 +69,9 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD candidate in [Statistics](https://statistics.northwestern.edu/) at Northwestern University and a member of the [Statistics for Evidence-Based Policy and Practice (STEPP) Center](https://sites.northwestern.edu/steppcenter/about/) based at the Institute for Policy Research at Northwestern. 
+I am a postdoctoral scholar in the Department of Statistics at the University of Washington, collaborating with Tyler McCormick. My current work focuses on developing a framework for policy decisions based on predictions from statistical and machine learning models.
 
-My research focuses on the development and use of meta-analysis methods for evidence-based policy and practice in education, medicine and the social sciences. I also seek to understand problems in the formulation of effect sizes and effect size estimators in randomized experiments and quasi-experiments when adjusting for covariates. 
+I received my PhD in [Statistics](https://statistics.northwestern.edu/) from Northwestern University and was a member of the  [Statistics for Evidence-Based Policy and Practice (STEPP) Center](https://sites.northwestern.edu/steppcenter/about/) based at the Institute for Policy Research at Northwestern. My research focused on the development and use of meta-analysis methods for evidence-based policy and practice in education, medicine and the social sciences. I also sought to understand problems in the formulation of effect sizes and effect size estimators in randomized experiments and quasi-experiments when adjusting for covariates. 
 
 
 
