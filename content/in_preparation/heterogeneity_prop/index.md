@@ -9,4 +9,3 @@ featured: true
 publication: ""
 #url_pdf: "pdf/aggregate_patterns_replication.pdf"
 ---
-__Abstract:__ 
