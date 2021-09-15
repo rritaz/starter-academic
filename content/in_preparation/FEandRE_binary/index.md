@@ -1,13 +1,12 @@
 ---
-title: "Adjusting for covariates with the standardized mean difference effect size"
+title: "Random-effects meta-analysis of randomized clinical trials when the outcome is binary and the number of studies is small."
 date: "in preparation"
 #publishDate: 2020-09-19T21:11:36.391446Z
-authors: ["Larry V. Hedges", "Elizabeth Tipton", "Rrita Zejnullahi", "Karina G. Diaz"]
+authors: ["Rrita Zejnullahi"]
 publication_types: ["3"]
-abstract: "Adjusting for baseline characteristics (e.g., pre-tests) is common practice when evaluating the effects of interventions. While it has been long-known that the use of these adjustments typically leads to an increase in precision of treatment effect estimates in primary analyses of randomized trials, representing the results of such analyses in terms of effect sizes, however, has received little attention. In this article, we provide a framework for defining effect sizes in designs with a pre-test and propose estimators of those effect sizes. The estimators and approximations to their sampling distributions are evaluated using a simulation study and then demonstrated using an example from published data. 
-"
+abstract: ""
 featured: true
 publication: ""
 #url_pdf: "pdf/aggregate_patterns_replication.pdf"
 ---
-__Abstract:__ Adjusting for baseline characteristics (e.g., pre-tests) is common practice when evaluating the effects of interventions. While it has been long-known that the use of these adjustments typically leads to an increase in precision of treatment effect estimates in primary analyses of randomized trials, representing the results of such analyses in terms of effect sizes, however, has received little attention. In this article, we provide a framework for defining effect sizes in designs with a pre-test and propose estimators of those effect sizes. The estimators and approximations to their sampling distributions are evaluated using a simulation study and then demonstrated using an example from published data. 
+__Abstract:__ 
