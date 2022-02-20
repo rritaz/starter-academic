@@ -3,7 +3,7 @@ action_label: Read More &rarr;
 action_link: /about
 action_type: text
 images: 
-- img/avatar3.jpeg
+- img/coffee-draw.jpeg
 description: 
 image_left: false
 show_action_link: true
