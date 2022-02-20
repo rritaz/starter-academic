@@ -58,7 +58,7 @@ social:
   link: https://github.com/rritaz
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "rritazejnullahi@u.northwestern.edu"
+email: "rritaz@uw.edu"
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
@@ -67,9 +67,9 @@ user_groups:
 - Visitors
 ---
 
-I am a postdoctoral scholar in the [Department of Statistics](https://stat.uw.edu/) at the University of Washington, collaborating with Tyler McCormick on statistical methodology related to predictive models for evidence-informed policy-making. 
+I am a postdoctoral scholar in the [Department of Statistics](https://stat.uw.edu/) at the University of Washington, working on statistical methodology related to predictive models for evidence-informed policy-making. 
 
-I received my PhD in [Statistics](https://statistics.northwestern.edu/) from Northwestern University and was a member of the  [Statistics for Evidence-Based Policy and Practice (STEPP) Center](https://sites.northwestern.edu/steppcenter/about/) based at the Institute for Policy Research at Northwestern. My research focused on the development and use of meta-analysis methods for policy and practice in education, medicine and the social sciences. I also sought to understand problems in the formulation of effect sizes and effect size estimators in randomized experiments and quasi-experiments when adjusting for covariates. 
+I received my PhD in Statistics from Northwestern University and was a member of the [Statistics for Evidence-Based Policy and Practice (STEPP) Center](https://sites.northwestern.edu/steppcenter/about/) based at the Institute for Policy Research at Northwestern. My research focused on the development and use of meta-analysis methods for policy and practice in education, medicine and the social sciences. I also sought to understand problems in the formulation of effect sizes and effect size estimators in randomized experiments and quasi-experiments when adjusting for covariates. 
 
 
 
