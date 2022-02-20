@@ -2,7 +2,7 @@
 cascade:
   headless: true
 description: |
- Lucy D'Agostino McGowan is an Assistant Professor of Statistics at Wake Forest University
+ Rrita Zejnullahi is a Postdoctoral Scholar in Statistics at the University of Washington
 show_header: true
 show_sidebar: true
 title: About
