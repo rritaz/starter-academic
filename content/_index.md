@@ -3,14 +3,14 @@ action_label: Read More &rarr;
 action_link: /about
 action_type: text
 images: 
-- img/coffee-draw.png
-description: Lucy helps answer public health questions using statistics. Her research focuses on causal inference, human-data interaction, and statistical communication.
+- img/avatar3.jpeg
+description: 
 image_left: false
 show_action_link: true
 show_social_links: false
-subtitle: Assistant Professor of Statistics at Wake Forest University
+subtitle: Postdoctoral Scholar in Statistics at the University of Washington
 text_align_left: true
-title: Lucy D'Agostino McGowan
+title: Rrita Zejnullahi
 type: home
 ---
 
