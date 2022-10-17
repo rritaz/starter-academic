@@ -1,7 +1,7 @@
 ### Courses
 
-University of Washington, Directed Reading Program (DRP) Mentor
-* Spring 2022 - Introduction to Human Rights Statistics
+-University of Washington, Directed Reading Program (DRP) Mentor
+  -Spring 2022 - Introduction to Human Rights Statistics
 
 Northwestern University, Teaching Assistant
 * Spring 2020 - Stat 301-3 - Data Science III
