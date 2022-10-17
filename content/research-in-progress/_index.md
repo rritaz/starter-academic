@@ -1,4 +1,4 @@
-#### Working Papers/Under Review
+#### Working Papers
 
 #### Research in Progress
 
