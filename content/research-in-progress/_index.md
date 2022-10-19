@@ -1,5 +1,12 @@
 #### Working Papers
 
+Small meta-analysis with the standardized mean difference. **Zejnullahi, R.** and Hedges, L.V. *Working paper*.\
+
+Meta-analysis of randomized clinical trials based on binary data and a small number of studies. **Zejnullahi, R.** and Hedges, L.V. *In preparation*.
+
 #### Research in Progress
 
-Decision making under uncertainty
+**Quantifying uncertainty and ambiguity of point estimates from predictive models for policy-making**\
+ - Allocating funds to minimize aggregate poverty
+ - Empirical survey with policy-makers
+
