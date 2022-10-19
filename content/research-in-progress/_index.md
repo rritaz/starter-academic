@@ -1,7 +1,5 @@
 #### Working Papers
-\vspace{-5truemm}
-
- - Small meta-analysis with the standardized mean difference effect size. **Zejnullahi, R.** and Hedges, L.V. 
+Small meta-analysis with the standardized mean difference effect size. **Zejnullahi, R.** and Hedges, L.V. 
 
 #### In preparation
 
