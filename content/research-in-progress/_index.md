@@ -1,8 +1,9 @@
 #### Working Papers
 
-Small meta-analysis with the standardized mean difference. **Zejnullahi, R.** and Hedges, L.V. *Working paper*.\
+ - Small meta-analysis with the standardized mean difference. **Zejnullahi, R.** and Hedges, L.V. *Working paper*.
 
-Meta-analysis of randomized clinical trials based on binary data and a small number of studies. **Zejnullahi, R.** and Hedges, L.V. *In preparation*.
+ - Meta-analysis of randomized clinical trials based on binary data and a small number of studies. **Zejnullahi, R.** and Hedges, L.V. *In preparation*.
+
 
 #### Research in Progress
 
