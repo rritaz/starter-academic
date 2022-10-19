@@ -1,10 +1,9 @@
 #### Working Papers
-Small meta-analysis with the standardized mean difference effect size. **Zejnullahi, R.** and Hedges, L.V. 
+ - Small meta-analysis with the standardized mean difference effect size (with Larry Hedges) 
 
 #### In preparation
-Meta-analysis of clinical trials based on binary data and a small number of studies. **Zejnullahi, R.** and Hedges, L.V. \
- 
-Considerations in heterogeneity variance estimation in small meta-analysis. 
+ - Meta-analysis of clinical trials based on binary data and a small number of studies (with Larry Hedges)
+ - Considerations in heterogeneity variance estimation in small meta-analysis. 
 
 
 #### Research in Progress
