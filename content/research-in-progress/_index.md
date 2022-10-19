@@ -9,7 +9,7 @@
 
 #### Research in Progress
 
-Quantifying uncertainty and ambiguity of point estimates from predictive models for policy-making (with Tyler McCormick and Eunice Jun)
- - Allocating funds to minimize aggregate poverty
- - Empirical survey with policy-makers
+Quantifying uncertainty and ambiguity of point estimates from predictive models for policy-making 
+ - Allocating funds to minimize aggregate poverty (with Tyler McCormick)
+ - Empirical survey with policy-makers (with Tyler McCormick and Eunice Jun)
 
