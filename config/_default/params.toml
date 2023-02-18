@@ -90,9 +90,10 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "rritaz@uw.edu"
 phone = ""
-address = ""University of Washington<br>
-            Department of Statistics <br>
-            Seattle, WA 98195""
+address = """Azusa Pacific University<br>
+            Department of Mathematics, Physics & Statistics <br>
+            901 E. Alosta Ave<br>
+            Azusa, CA 91702"""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
