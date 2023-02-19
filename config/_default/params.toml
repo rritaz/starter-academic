@@ -89,8 +89,8 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "rritaz@uw.edu"
-phone = ""
-address = ""
+#phone = ""
+#address = ""
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
