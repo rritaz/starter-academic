@@ -46,15 +46,15 @@ social:
 - icon: envelope
   icon_pack: fas
   link: "mailto:rritaz@uw.edu" 
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/rrita_stats
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=vrPDTgsAAAAJ
+  link: https://scholar.google.com/citations?user=1DLY2Z8AAAAJ&hl=en
 - icon: github
   icon_pack: fab
   link: https://github.com/rritaz
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/rrita_stats
 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
