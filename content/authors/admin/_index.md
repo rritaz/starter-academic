@@ -55,9 +55,7 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/rritaz
-- icon = linkedin
-  icon_pack = fab
-  link = https://www.linkedin.com/in/rrita-zejnullahi-79307b21b/
+
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "rritaz@uw.edu"
