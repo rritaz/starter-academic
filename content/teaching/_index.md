@@ -2,5 +2,5 @@
 
 **University of Illinois Chicago** \
 College of Applied Health Sciences\
--Fall 2023 - AHS 511 - Biostatistics I
+- Fall 2023 - AHS 511 - Biostatistics I
 
