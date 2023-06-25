@@ -18,11 +18,11 @@ organizations:
   url: ""
 
 
-# interests:
-# - Meta-analysis
-# - Causal inference
-# - Social statistics
-# - Public health
+ interests:
+ - Meta-analysis
+ - Causal inference
+ - Social statistics
+ - Public health
 
 
 # education:
