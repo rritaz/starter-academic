@@ -90,7 +90,7 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "rritaz@uw.edu"
 #phone = ""
-address = """University of Illinois Chicago  School of Public Health and College of Applied Health Sciences  1603 W Taylor Street Chicago IL 60612"""
+address = """University of Illinois Chicago"""
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = []
