@@ -29,8 +29,8 @@
   weight = 40
 
 [[main]]
-  name = "Research in Progress"
-  url = "/research-in-progress/"
+  name = "Contact"
+  url = "/contact/"
   weight = 50
 
 [[main]]
