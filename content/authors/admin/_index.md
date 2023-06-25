@@ -25,17 +25,17 @@ organizations:
  - Public health
 
 
-# education:
-#   courses:
-#   - course: PhD, MS in Statistics
-#     institution: Northwestern University
-#     year: 2021 
-#   - course: MA in Mathematics
-#     institution: Eastern Michigan University
-#     year: 2015 
-#   - course: BS in Applied Arts and Sciences
-#     institution: Rochester Institute of Technology
-#     year: 2011
+education:
+ courses:
+- course: PhD, MS in Statistics
+  institution: Northwestern University
+  year: 2021 
+- course: MA in Mathematics
+  institution: Eastern Michigan University
+  year: 2015 
+- course: BS in Applied Arts and Sciences
+  institution: Rochester Institute of Technology
+  year: 2011
 
 
 # Social/Academic Networking
