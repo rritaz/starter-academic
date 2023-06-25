@@ -10,20 +10,19 @@ authors:
 superuser: true
 
 # Role/position
-role: Postdoctoral Scholar
+role: Clinical Assistant Professor of Biostatistics
 
 # Organizations/Affiliations
 organizations:
-- name: Department of Statistics
-        University of Washington
+- name: University of Illinois Chicago
   url: ""
 
 
 interests:
 - Meta-analysis
 - Causal inference
-- Data science
-- Social policy
+- Social statistics
+- Public health
 
 
 education:
