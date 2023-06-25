@@ -13,8 +13,8 @@ menu_primary = "#FFFFFF" # 500
 # white
 menu_text = "#606060"
 # when you hover over it
-menu_text_active = "#008A6D"#"#43b3ae" #67afb3" #"#67afb3" # A100
-menu_title = "#008A6D"
+menu_text_active = "#34BE7F"#"#43b3ae" #67afb3" #"#67afb3" # A100
+menu_title = "#34BE7F"
 
 # Home sections
 home_section_odd = "rgb(255, 255, 255)"
