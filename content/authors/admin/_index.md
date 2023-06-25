@@ -51,7 +51,7 @@ social:
   link: https://twitter.com/rrita_stats
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=1DLY2Z8AAAAJ&hl=en&oi=ao
+  link: https://scholar.google.com/citations?user=vrPDTgsAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/rritaz
