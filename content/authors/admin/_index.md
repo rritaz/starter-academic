@@ -67,9 +67,9 @@ user_groups:
 - Visitors
 ---
 
-I am currently a postdoctoral researcher in the [Department of Statistics](https://stat.uw.edu/) at the University of Washington. I received a PhD in Statistics from Northwestern University, and was a member of the [Statistics for Evidence-Based Policy and Practice (STEPP) Center](https://sites.northwestern.edu/steppcenter/about/) based at the Institute for Policy Research at Northwestern. 
+I am currently a Clinical Assistant Professor of Biostatistics at the University of Illinois Chicago, with joint appointments in the [School of Public Health, Division of Epidemiology and Biostatistics](https://publichealth.uic.edu/) and the [College of Applied Health Sciences](https://ahs.uic.edu/). 
+My research interests are in the use and development of statistical methods and tools to support policy-making. This includes the quantification of uncertainty of point estimates from predictive models, the formulation of effect sizes and effect size estimators in randomized and quasi-experiments when adjusting for covariates, and extensions of meta-analysis methods to small sample situations. I am also interested in generating empirical evidence about how policy-makers and practitioners make decisions currently, and designing tools that better support their decision-making processes. 
 
-My research interests are in the use and development of statistical methods and tools to support evidence-based policy-making. This includes the quantification of uncertainty and ambiguity of point estimates from predictive models, the formulation of effect sizes and effect size estimators in randomized and quasi-experiments when adjusting for covariates, and extensions of meta-analysis methods to small sample situations. I am also interested in generating empirical evidence about how policy-makers and practitioners make decisions currently, and designing tools that better support their decision-making processes. The applied areas I have focused on to date are economics, education, psychology and medicine. 
 
 
 
