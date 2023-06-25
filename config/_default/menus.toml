@@ -18,10 +18,10 @@
   url = "/publication/"
   weight = 20
 
-[[main]]
-  name = "Research in Progress"
-  url = "/research-in-progress/"
-  weight = 30
+#[[main]]
+#  name = "Research in Progress"
+#  url = "/research-in-progress/"
+#  weight = 30
 
 [[main]]
   name = "Teaching"
