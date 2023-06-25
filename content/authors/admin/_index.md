@@ -43,27 +43,22 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
- [[params.social]]
 - icon: envelope
   icon_pack: fas
   link: "mailto:rritaz@uw.edu" 
   
- [[params.social]]
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/rrita_stats
   
- [[params.social]]
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=1DLY2Z8AAAAJ&hl=en&oi=ao
   
- [[params.social]]
 - icon: github
   icon_pack: fab
   link: https://github.com/rritaz
   
-[[params.social]]
 - icon = "linkedin"
   icon_pack = "fa"
   link = "https://www.linkedin.com/in/rrita-zejnullahi-79307b21b/"
