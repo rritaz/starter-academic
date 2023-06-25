@@ -18,19 +18,19 @@
   url = "/publication/"
   weight = 20
 
-#[[main]]
-#  name = "Research in Progress"
-#  url = "/research-in-progress/"
-#  weight = 30
-
 [[main]]
   name = "Teaching"
   url = "teaching/"
-  weight = 40
+  weight = 30
 
 [[main]]
   name = "CV"
   url = "files/cv.pdf"
+  weight = 40
+
+[[main]]
+  name = "Research in Progress"
+  url = "/research-in-progress/"
   weight = 50
 
 [[main]]
