@@ -5,13 +5,13 @@ name = "my_theme"
 light = true
 
 # Primary
-primary = "#282C2B"#"#43b3ae"# "#67afb3" #67afb3"
+primary = "#00AC85"#"#43b3ae"# "#67afb3" #67afb3"
 
 # Menu
 menu_primary = "#FFFFFF" # 500
 
 # white
-menu_text = "#606060"
+menu_text = "#282C2B"
 # when you hover over it
 menu_text_active = "#00AC85"#"#43b3ae" #67afb3" #"#67afb3" # A100
 menu_title = "#00AC85"
