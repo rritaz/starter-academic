@@ -14,7 +14,7 @@ role: Clinical Assistant Professor of Biostatistics
 
 # Organizations/Affiliations
 organizations:
-- name: University of Illinois Chicago
+- name: Division of Epidemiology and Biostatistics, School of Public Health, University of Illinois Chicago 
   url: ""
 
 
