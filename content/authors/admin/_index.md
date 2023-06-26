@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Clinical Assistant Professor of Biostatistics
+role: Clinical Assistant Professor
 
 # Organizations/Affiliations
 organizations:
