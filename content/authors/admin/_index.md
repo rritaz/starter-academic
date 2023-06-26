@@ -18,10 +18,11 @@ organizations:
   url: ""
 
 
-Research interests:
+interests:
 - Meta-analysis
 - Causal inference
 - Social statistics
+- Public policy
 - Public health
 
 education:
@@ -51,6 +52,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/rritaz
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/rrita-zejnullahi-79307b21b/
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/rrita_stats
