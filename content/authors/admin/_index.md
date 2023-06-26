@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 
-interests:
+Research interests:
 - Meta-analysis
 - Causal inference
 - Social statistics
