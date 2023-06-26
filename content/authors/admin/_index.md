@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: Clinical Assistant Professor
+role: Clinical Assistant Professor of Biostatistics
 
 # Organizations/Affiliations
 organizations:
-- name: Division of Epidemiology and Biostatistics, School of Public Health, University of Illinois Chicago 
+- name: University of Illinois Chicago 
   url: ""
 
 
