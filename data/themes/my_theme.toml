@@ -11,10 +11,10 @@ primary = "#338373"#"#43b3ae"# "#67afb3" #67afb3"
 menu_primary = "#FFFFFF" # 500
 
 # white
-menu_text = "#338373"
+menu_text = "#303030"
 # when you hover over it
 menu_text_active = "#338373"#"#43b3ae" #67afb3" #"#67afb3" # A100
-menu_title = "#181818"
+menu_title = "#303030"
 
 # Home sections
 home_section_odd = "rgb(255, 255, 255)"
