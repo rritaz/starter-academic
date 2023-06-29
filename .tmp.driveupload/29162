@@ -1,0 +1,36 @@
+@preamble{ " \newcommand{\noop}[1]{} " }
+
+@article{rva-small-ma-smd,
+ abstract = {This article considers the synthesis of standardized mean differences using a random-effects framework in the case of few studies. While random-effects methods produce efficient estimates and confidence intervals for the summary effect have correct coverage when the number of studies is sufficiently large, we demonstrate that conventional methods result in confidence intervals that are not wide enough when the number of studies is small, depending on the configuration of sample sizes across studies, degree of true heterogeneity and number of studies. We introduce two alternative variance estimators with better small sample properties, investigate degrees of freedom adjustments for computing confidence intervals, and study their effectiveness via simulation studies.},
+ author = {Rrita Zejnullahi and Larry V. Hedges},
+ journal = {Research Synthesis Methods},
+ title = {Robust variance estimation in small meta-analysis with the standardized mean difference},
+ pubstate = {forthcoming},
+ year = {\noop{3001}}
+}
+
+@article{effect-sizes,
+ abstract = {It is common practice in both randomized and quasi-experiments to adjust for baseline characteristics when estimating the average effect of an intervention. The inclusion of a pre-test, for example, can reduce both the standard error of this estimate, and – in non-randomized designs – its bias. At the same time, it is also standard to report the effect of an intervention in standardized effect size units, thus making it comparable to other interventions and studies. Curiously, the estimation of this effect size including covariate adjustment has received little attention. In this article, we provide a framework for defining effect sizes in designs with a pre-test (e.g., difference-in-differences and analysis of covariance) and propose estimators of those effect sizes. The estimators and approximations to their sampling distributions are evaluated using a simulation study and then demonstrated using an example from published data.},
+ author = {Larry V. Hedges and Elizabeth Tipton and Rrita Zejnullahi and Karina G. Diaz},
+ journal = {British Journal of Mathematical and Statistical Psychology},
+ title = {Effect sizes in ANCOVA and difference-in-differences designs},
+ year = "2023"
+}
+
+@article{aggregate_metrics,
+ abstract = {Several programs of research have sought to assess the replicability of scientific findings in different fields, including economics and psychology. These programs attempt to replicate several findings and use the results to say something about large-scale patterns of replicability in a field. However, little work has been done to understand the analytic methods used to do this, including what they are assessing and what their statistical properties are. This article examines several methods that have been used to study patterns of replicability in the social sciences. We describe in concrete terms how each method operationalizes the idea of "replication" and examine various statistical properties, including bias, precision, and statistical power. We find that some analytic methods rely on an operational definition of replication that can be misleading. Other methods involve more sound definitions of replication, but most of these have limitations such as large bias and uncertainty or low power. The findings suggest that we should use caution interpreting the results of such analyses and that work on more accurate methods may be useful to future replication research efforts.},
+ author = {Jacob M. Schauer and Kaitlyn G. Fitzgerald and Sarah Peko-Spicer and Mena C. R. Whalen and Rrita Zejnullahi and Larry V. Hedges},
+ journal = {Annals of Applied Statistics},
+ title = {An evaluation of statistical methods for aggregate patterns of replication failure},
+ year = "2021}"
+}
+
+@article{Teacher_knowledge,
+ abstract = {Students come to the learning of categorical association with many misconceptions. The purpose of this study was to determine the effectiveness of novel curriculum materials to improve mathematics teachers’ knowledge of students’ conceptions regarding categorical association. Results showed that prior to use of the materials, teachers’ knowledge was mostly limited to variations on one misconception. Following use of the materials, they were more broadly aware of a number of different misconceptions and improved their ability to analyze categorical data for association.},
+ author = {Stephanie A. Casey and Andrew M. Ross and Randall E. Groth and Rrita Zejnullahi},
+ journal = {In Bartell, T.G., Bieda, K.N., Putnman, R.T., Bradfield, K., Dominguez, H. (Eds.), Proceedings of the thirty-seventh annual meeting of the North American Chapter of the International Group for the Psychology of Mathematics Education},
+ title = {Developing teachers' knowledge of content and students for teaching categorical association},
+ year = "2015"
+}
+
+
