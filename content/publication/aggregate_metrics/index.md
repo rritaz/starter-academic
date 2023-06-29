@@ -8,5 +8,6 @@ abstract: "Several programs of research have sought to assess the replicability 
 featured: false
 publication: "*Annals of Applied Statistics*"
 # url_pdf: "pdf/aggregate_patterns_replication.pdf"
+doi:"10.1214/20-AOAS1387"
 ---
 
