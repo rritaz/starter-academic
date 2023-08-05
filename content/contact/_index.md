@@ -1,7 +1,7 @@
 ### Contact
 
 Rrita Zejnullahi <br>
-rritaz@uw.edu 
+rritaz@uic.edu 
 
 
 University of Illinois Chicago <br>
