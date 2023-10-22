@@ -21,9 +21,7 @@ organizations:
 interests:
 - Meta-analysis
 - Causal inference
-- Social statistics
-- Public policy
-- Public health
+- Public policy / education policy / health policy
 
 education:
   courses:
