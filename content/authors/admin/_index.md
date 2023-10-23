@@ -17,7 +17,6 @@ organizations:
 - name: University of Illinois Chicago 
   url: ""
 
-
 interests:
 - Meta-analysis
 - Causal inference
