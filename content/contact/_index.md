@@ -2,7 +2,7 @@
 
 Rrita Zejnullahi <br>
 rritaz@uic.edu 
-hello
+
 
 University of Illinois Chicago <br>
 School of Public Health <br>
