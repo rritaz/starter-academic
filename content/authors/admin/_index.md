@@ -1,6 +1,6 @@
 ---
 # Display name
-name: RRITA ZEJNULLAHI
+name: Rrita Zejnullahi
 
 # Username (this should match the folder name)
 authors:
