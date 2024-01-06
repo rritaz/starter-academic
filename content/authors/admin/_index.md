@@ -61,7 +61,7 @@ user_groups:
 - Visitors
 ---
 
-I am a Statistician and a Clinical Assistant Professor of Biostatistics at the University of Illinois Chicago, with appointments in the [School of Public Health, Division of Epidemiology and Biostatistics](https://publichealth.uic.edu/) (primary) and the [College of Applied Health Sciences](https://ahs.uic.edu/) (joint). 
+I am a Clinical Assistant Professor of Biostatistics at the University of Illinois Chicago, with appointments in the [School of Public Health, Division of Epidemiology and Biostatistics](https://publichealth.uic.edu/) (primary) and the [College of Applied Health Sciences](https://ahs.uic.edu/) (joint), and a statistician in the Office of Research at the College of Applied Health Sciences.
 
 My research interests are in the use and development of statistical methods and tools to support policy-making. This includes the quantification of uncertainty of point estimates from predictive models, the formulation of effect sizes and effect size estimators in randomized and quasi-experiments when adjusting for covariates, and extensions of meta-analysis methods to small sample situations. I am also interested in generating empirical evidence about how policy-makers and practitioners make decisions currently, and designing tools that better support their decision-making processes. 
 
