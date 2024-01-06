@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Rrita Zejnullahi
+name: RRITA ZEJNULLAHI
 
 # Username (this should match the folder name)
 authors:
@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Statistician | Clinical Assistant Professor of Biostatistics
+role: Clinical Assistant Professor of Biostatistics
 
 # Organizations/Affiliations
 organizations:
