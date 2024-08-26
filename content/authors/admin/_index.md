@@ -46,13 +46,11 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/rrita-zejnullahi-79307b21b/
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/rrita_z
+  
 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "rritaz@uw.edu"
+email: "rritaz@uic.edu"
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
