@@ -65,12 +65,12 @@ My research interests are in the use and development of statistical methods and 
 
 I have worked in a range of substantive areas, including:
 - Statistical support for refugee populations
-- Combining and communicating air quality data
+- Combining and communicating air quality data for community empowerment 
 - Sport epidemiology
 - Mobility improvement among the aging population and people with neurological disorders
 - Understanding physiological mechanisms governing skeletal muscle blood flow during physical activity.
 
-![image](https://github.com/user-attachments/assets/33034071-f449-4e7d-965f-93da6991ab24)
+
 
 
 
