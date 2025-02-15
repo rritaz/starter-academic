@@ -17,16 +17,7 @@ organizations:
 - name: University of Illinois Chicago 
   url: ""
 
-interests:
-- Meta-analysis
-- Causal inference
-- Education / health policy
 
-education:
-  courses:
-  - course: PhD in Statistics
-    institution: Northwestern University
-    year: 2021
 
 
 # Social/Academic Networking
@@ -61,9 +52,13 @@ user_groups:
 
 I am a Statistician and a Clinical Assistant Professor of Biostatistics at the University of Illinois Chicago, with appointments in the [School of Public Health, Division of Epidemiology and Biostatistics](https://publichealth.uic.edu/) (primary) and the [College of Applied Health Sciences](https://ahs.uic.edu/) (joint).
 
-My research interests are in the use and development of statistical methods and tools to support policy-making. This includes the quantification of uncertainty of point estimates from predictive models, the formulation of effect sizes and effect size estimators in randomized and quasi-experiments when adjusting for covariates, and extensions of meta-analysis methods to small sample situations. I am also interested in generating empirical evidence about how policy-makers and practitioners make decisions currently, and designing tools that better support their decision-making processes. 
+My research interests are in the use and development of statistical methods and tools to support policy-making. This includes 
+- the quantification of uncertainty of point estimates from predictive models
+- the formulation of effect sizes and effect size estimators in randomized and quasi-experiments when adjusting for covariates, and
+- extensions of meta-analysis methods to small sample situations.
+I am also interested in generating empirical evidence about how policy-makers and practitioners make decisions currently, and designing tools that better support their decision-making processes. 
 
-I have worked in a range of substantive areas, including:
+To date, I have worked in a range of substantive areas, including:
 - Statistical support for refugee populations
 - Combining and communicating air quality data for community empowerment 
 - Sport epidemiology
