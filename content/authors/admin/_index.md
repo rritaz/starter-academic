@@ -53,18 +53,18 @@ user_groups:
 I am a Clinical Assistant Professor of Biostatistics at the University of Illinois Chicago, with appointments in the [School of Public Health, Division of Epidemiology and Biostatistics](https://publichealth.uic.edu/) (primary), and the [College of Applied Health Sciences](https://ahs.uic.edu/) (joint), and a Statistician in the Office of Research, College of Applied Health Sciences.
 
 My research interests are in the use and development of statistical methods and tools to support policy-making. This includes 
-- the quantification of uncertainty of point estimates from **predictive models**
-- the formulation of **effect sizes** and effect size estimators in randomized and quasi-experiments when adjusting for covariates
+- the quantification of uncertainty of point estimates from **predictive models**,
+- the formulation of **effect sizes** and effect size estimators in randomized and quasi-experiments when adjusting for covariates, and
 - extensions of **meta-analysis** methods to small sample situations.
 
 I am also interested in generating empirical evidence about how policy-makers and practitioners make decisions currently, and designing tools that better support their decision-making processes. 
 
 To date, I have worked in a range of substantive areas, including:
-- statistical support for refugee populations
-- combining and communicating air quality data for community empowerment 
-- sport epidemiology
-- mobility improvement among the aging population and people with neurological disorders
-- lifestyle interventions that promote mental health
+- statistical support for refugee populations,
+- combining and communicating air quality data for community empowerment, 
+- sport epidemiology,
+- mobility improvement among the aging population and people with neurological disorders,
+- lifestyle interventions that promote mental health, and
 - understanding physiological mechanisms governing skeletal muscle blood flow during physical activity.
 
 
