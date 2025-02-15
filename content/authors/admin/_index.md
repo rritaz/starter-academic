@@ -63,6 +63,16 @@ I am a Statistician and a Clinical Assistant Professor of Biostatistics at the U
 
 My research interests are in the use and development of statistical methods and tools to support policy-making. This includes the quantification of uncertainty of point estimates from predictive models, the formulation of effect sizes and effect size estimators in randomized and quasi-experiments when adjusting for covariates, and extensions of meta-analysis methods to small sample situations. I am also interested in generating empirical evidence about how policy-makers and practitioners make decisions currently, and designing tools that better support their decision-making processes. 
 
+I have worked in a range of substantive areas, including:
+- Statistical support for refugee populations
+- Combining and communicating air quality data
+- Sport epidemiology
+- Mobility improvement among the aging population and people with neurological disorders
+- Understanding physiological mechanisms governing skeletal muscle blood flow during physical activity.
+
+![image](https://github.com/user-attachments/assets/33034071-f449-4e7d-965f-93da6991ab24)
+
+
 
 
 
