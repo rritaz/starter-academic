@@ -68,6 +68,7 @@ I have worked in a range of substantive areas, including:
 - Combining and communicating air quality data for community empowerment 
 - Sport epidemiology
 - Mobility improvement among the aging population and people with neurological disorders
+- Lifestyle interventions that promote mental health
 - Understanding physiological mechanisms governing skeletal muscle blood flow during physical activity.
 
 
