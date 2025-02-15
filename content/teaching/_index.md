@@ -1,6 +1,8 @@
 ### Courses
 
 #### University of Illinois Chicago
+- **IPHS 405: Analytic and Research Methods in Public Health Part II** (Spring 2025)\
+Second part of a graduate level course sequence that introduces students to the analytical and research methods essential for carrying out the core functions of evidence-based public health
 - **IPHS 402: Analytic and Research Methods in Public Health** (Fall 2023, 2024)\
 Graduate level course that introduces students to the analytic and research methods used to carry out the core functions of evidence-based public health.
 - **AHS 511: Biostatistics I** (Fall 2023, 2024)\
