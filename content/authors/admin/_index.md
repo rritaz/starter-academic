@@ -61,7 +61,6 @@ I am also interested in generating empirical evidence about how policy-makers an
 
 To date, I have worked in a range of substantive areas, including:
 - statistical support for refugee populations,
-- combining and communicating air quality data for community empowerment, 
 - sport epidemiology,
 - mobility improvement among the aging population and people with neurological disorders,
 - lifestyle interventions that promote mental health, and
