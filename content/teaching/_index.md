@@ -1,6 +1,9 @@
 ### Courses
 
 #### University of Illinois Chicago
+- **BSTT 535. Categorical Data Analysis** (Spring 2026)\
+Graduate-level course covering contingency tables and corresponding hypothesis tests, measures of association, stratified analysis, logistic regression, generalized linear models, Poisson regression, log-linear models, matched data, marginal homogeneity, and methods for ordinal outcomes.
+
 - **IPHS 454: Quantitative Methods and Analysis I** (Fall 2025)\
 Graduate level course that introduces students to analytic and research methods widely used in evidence-based public health.
 
