@@ -5,7 +5,7 @@
 - **BSTT 535. Categorical Data Analysis** (Spring 2026)\
 Graduate-level course covering contingency tables and corresponding hypothesis tests, measures of association, stratified analysis, logistic regression, generalized linear models, Poisson regression, log-linear models, matched data, marginal homogeneity, and methods for ordinal outcomes.
 
-- **IPHS 454–455: Quantitative Methods and Analysis I & II ** (Fall 2025, Spring 2026)\
+- **IPHS 454–455: Quantitative Methods and Analysis I \& II ** (Fall 2025, Spring 2026)\
 Graduate-level courses that provide a comprehensive foundation in analytic and research methods essential for evidence-based public health. 
 
 - **IPHS 405: Analytic and Research Methods in Public Health Part II** (Spring 2025)\
