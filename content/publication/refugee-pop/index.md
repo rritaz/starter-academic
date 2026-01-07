@@ -1,12 +1,12 @@
 ---
-title: "Robust variance estimation in small meta-analysis with the standardized mean difference"
-date: "2023"
-publishDate: 2023-05-26T00:00:00
-authors: ["Rrita Zejnullahi", "Larry V. Hedges"]
+title: "How can statisticians support refugees?"
+date: "2025"
+publishDate: 2025-12-26T00:00:00
+authors: ["David Banks", "Jessica Kunke", "Rrita Zejnullahi"]
 publication_types: ["2"]
-abstract: "Conventional random-effects models in meta-analysis rely on large sample approximations instead of exact small sample results. While random-effects methods produce efficient estimates and confidence intervals for the summary effect have correct coverage when the number of studies is sufficiently large, we demonstrate that conventional methods result in confidence intervals that are not wide enough when the number of studies is small, depending on the configuration of sample sizes across studies, degree of true heterogeneity and number of studies. We introduce two alternative variance estimators with better small sample properties, investigate degrees of freedom adjustments for computing confidence intervals, and study their effectiveness via simulation studies."
+abstract: "In this special issue, we aim to lay the groundwork for statistical support for refugee populations. We hope this special issue will serve as a valuable resource for the statistics community. We also want to highlight the broader value of statistics and data science for public good– this issue serves as a compelling example of how our discipline can contribute meaningfully to long-term societal change. The papers in this special issue are based on longerform academic papers written by graduate and undergraduate students in Duke University’s Bass Connections program, which focused upon the Middle East and North Africa."
 featured: false
-publication: "*Research Synthesis Methods*"
+publication: "*CHANCE*"
 # url_pdf: "pdf/aggregate_patterns_replication.pdf"
 ---
 
