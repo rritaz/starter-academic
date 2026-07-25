@@ -21,24 +21,29 @@ design:
   margin: 0 !important;
 }
 
-#banner .container {
-  max-width: 1320px !important;
-  width: calc(100% - 60px) !important;
+#banner .container,
+#banner .container-fluid {
+  max-width: 100% !important;
+  width: 100% !important;
   padding: 0 !important;
-  margin: 0 auto !important;
+  margin: 0 !important;
 }
 
 #banner .row {
   margin: 0 !important;
 }
 
-#banner .col-12 {
+#banner [class*="col-"] {
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
   padding: 0 !important;
 }
 
 .site-banner {
-  width: 100%;
-  height: 190px;
+  width: calc(100% - 100px);
+  max-width: 1620px;
+  height: 250px;
+  margin: 0 auto;
   overflow: hidden;
   line-height: 0;
 }
