@@ -37,24 +37,24 @@ padding = ["0", "0", "0", "0"]
   padding: 0 !important;
 }
 
-/* Banner width */
+/* Banner width and visible cropped area */
 .site-banner {
   width: calc(100% - 100px);
   max-width: 1350px;
+  height: 300px;
   margin: 0 auto;
   padding: 0;
   line-height: 0;
+  overflow: hidden;
 }
 
-/* Display the full panoramic image without cropping */
+/* Keep the same image but move it upward */
 .site-banner img {
   width: 100% !important;
   max-width: 100% !important;
   height: auto !important;
   display: block;
-  object-fit: contain !important;
-  object-position: center !important;
-  margin: 0 !important;
+  margin: -110px 0 0 0 !important;
   padding: 0 !important;
   transform: none !important;
   clip-path: none !important;
@@ -73,6 +73,11 @@ section#about,
 @media (max-width: 768px) {
   .site-banner {
     width: calc(100% - 30px);
+    height: 190px;
+  }
+
+  .site-banner img {
+    margin-top: -45px !important;
   }
 }
 
