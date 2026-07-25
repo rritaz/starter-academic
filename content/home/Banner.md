@@ -6,7 +6,7 @@ weight: 1
 design:
   columns: "1"
   background:
-    image: chicago-banner.png
+    image: bubbles-wide.png
     image_darken: 0
     image_size: contain
     image_position: center
