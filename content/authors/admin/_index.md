@@ -51,7 +51,7 @@ user_groups:
 ---
 
 <img src="/media/headers/bubbles-wide.png"
-     style="width:100%; height:200px; object-fit:cover; margin-bottom:25px;">
+     style="width:100%; height:240px; object-fit:cover; margin-bottom:25px;">
 
 I am a Clinical Assistant Professor of Biostatistics at the University of Illinois Chicago, with appointments in the [School of Public Health, Division of Epidemiology and Biostatistics](https://publichealth.uic.edu/) (primary), and the [College of Applied Health Sciences](https://ahs.uic.edu/) (joint), and a Statistician in the Office of Research, College of Applied Health Sciences.
 
