@@ -13,13 +13,17 @@ padding = ["0", "0", "0", "0"]
 +++
 
 <style>
-/* Remove spacing around banner */
+#banner,
+#banner.home-section,
 .home-section.wg-blank {
-  padding: 0 !important;
   margin: 0 !important;
+  padding: 0 !important;
 }
 
-/* Remove Wowchemy container constraints */
+#banner .container,
+#banner .container-fluid,
+#banner .row,
+#banner [class*="col-"],
 .home-section.wg-blank .container,
 .home-section.wg-blank .container-fluid,
 .home-section.wg-blank .row,
@@ -30,24 +34,23 @@ padding = ["0", "0", "0", "0"]
   padding: 0 !important;
 }
 
-/* Banner */
-.site-banner{
-    width:100%;
-    text-align:center;
-    line-height:0;
-    margin:0;
-    padding:0;
+.site-banner {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  line-height: 0;
+  overflow: hidden;
 }
 
-/* IMPORTANT: do NOT set a fixed height */
-.site-banner img{
-    width:100%;
-    height:auto;
-    display:block;
-    margin:0 auto;
+.site-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 </style>
 
 <div class="site-banner">
-    <img src="/media/headers/bubbles-wide.jpeg" alt="Chicago skyline">
+  <img src="/media/headers/bubbles-wide.jpeg" alt="Chicago skyline">
 </div>
