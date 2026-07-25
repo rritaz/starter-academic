@@ -22,10 +22,10 @@ design:
 }
 
 #banner .container {
-  max-width: none !important;
-  width: 100% !important;
+  max-width: 1320px !important;
+  width: calc(100% - 60px) !important;
   padding: 0 !important;
-  margin: 0 !important;
+  margin: 0 auto !important;
 }
 
 #banner .row {
@@ -36,21 +36,23 @@ design:
   padding: 0 !important;
 }
 
-.full-width-banner {
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-  line-height: 0;
+.site-banner {
+  width: 100%;
+  height: 190px;
   overflow: hidden;
+  line-height: 0;
 }
 
-.full-width-banner img {
+.site-banner img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
   display: block;
   margin: 0;
 }
 </style>
 
-<div class="full-width-banner">
+<div class="site-banner">
   <img src="/media/headers/bubbles-wide.png" alt="Chicago skyline">
 </div>
