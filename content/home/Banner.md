@@ -1,29 +1,24 @@
----
-widget: blank
-headless: true
-active: true
-weight: 1
-title: ""
++++
+widget = "blank"
+headless = true
+active = true
+weight = 1
+title = ""
 
-design:
-  columns: "1"
-  spacing:
-    padding:
-      - "0"
-      - "0"
-      - "0"
-      - "0"
----
+[design]
+columns = "1"
+
+[design.spacing]
+padding = ["0", "0", "0", "0"]
++++
 
 <style>
-/* Remove spacing around the banner section */
 #banner,
 #banner.home-section {
   margin: 0 !important;
   padding: 0 !important;
 }
 
-/* Remove Wowchemy container and column limits */
 #banner .container,
 #banner .container-fluid,
 #banner .row,
@@ -34,7 +29,6 @@ design:
   padding: 0 !important;
 }
 
-/* Full-width, thin banner */
 .site-banner {
   width: 100vw;
   height: 180px;
@@ -44,7 +38,6 @@ design:
   line-height: 0;
 }
 
-/* Fill the narrow banner */
 .site-banner img {
   width: 100%;
   height: 180px;
@@ -55,7 +48,6 @@ design:
   padding: 0;
 }
 
-/* Reduce the gap before the About section */
 #banner + section,
 #banner + .home-section,
 #about,
@@ -66,7 +58,6 @@ section#about,
   padding-top: 20px !important;
 }
 
-/* Mobile */
 @media (max-width: 768px) {
   .site-banner,
   .site-banner img {
