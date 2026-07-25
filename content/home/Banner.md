@@ -16,31 +16,29 @@ design:
 ---
 
 <style>
-#banner {
-  padding: 0 !important;
+/* Remove all spacing around the banner widget */
+#banner,
+#banner.home-section {
   margin: 0 !important;
+  padding: 0 !important;
 }
 
 #banner .container,
-#banner .container-fluid {
-  width: 100% !important;
-  max-width: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
+#banner .container-fluid,
 #banner .row,
 #banner [class*="col-"] {
   width: 100% !important;
-  max-width: 100% !important;
+  max-width: none !important;
   margin: 0 !important;
   padding: 0 !important;
 }
 
+/* Make banner span the entire browser width */
 .site-banner {
-  width: calc(100% - 110px);
-  max-width: 1600px;
-  margin: 0 auto;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding: 0;
   line-height: 0;
 }
 
@@ -49,24 +47,30 @@ design:
   height: auto;
   display: block;
   margin: 0;
+  padding: 0;
 }
 
-/* Remove the large gap below the banner */
-#banner + section {
+/* Remove spacing above the section immediately after the banner */
+#banner + section,
+#banner + .home-section {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Wowchemy About/Profile section */
+#about,
+section#about,
+.home-section.wg-about,
+.home-section.wg-about-avatar {
   padding-top: 20px !important;
-}
-
-/* Also reduce any bottom spacing added to the banner section */
-#banner {
-  padding-bottom: 0 !important;
+  margin-top: 0 !important;
 }
 
 @media (max-width: 768px) {
-  .site-banner {
-    width: calc(100% - 30px);
-  }
-
-  #banner + section {
+  #about,
+  section#about,
+  .home-section.wg-about,
+  .home-section.wg-about-avatar {
     padding-top: 15px !important;
   }
 }
