@@ -85,5 +85,5 @@ section#about,
 </style>
 
 <div class="site-banner">
-  <img src="/media/headers/bubbles-wide.jpeg" alt="Chicago skyline">
+  <img src="/media/headers/bubbles-wide.png" alt="Chicago skyline">
 </div>
