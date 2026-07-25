@@ -6,5 +6,5 @@ title: ""
 ---
 
 <img src="/media/headers/bubbles-wide.png"
-     style="width:100%; height:160px; object-fit:contain; display:block;"
+     style="width:100%; height:260px; object-fit:cover; display:block;"
      alt="">
