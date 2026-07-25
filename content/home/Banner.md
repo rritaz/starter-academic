@@ -21,40 +21,25 @@ design:
   margin: 0 !important;
 }
 
-#banner .container,
-#banner .container-fluid {
-  max-width: 100% !important;
-  width: 100% !important;
+#banner .container {
+  width: calc(100% - 100px) !important;
+  max-width: none !important;
+  margin: 0 auto !important;
   padding: 0 !important;
-  margin: 0 !important;
 }
 
-#banner .row {
-  margin: 0 !important;
-}
-
+#banner .row,
 #banner [class*="col-"] {
+  width: 100% !important;
   max-width: 100% !important;
-  flex: 0 0 100% !important;
+  margin: 0 !important;
   padding: 0 !important;
-}
-
-.site-banner {
-  width: calc(100% - 100px);
-  max-width: 1620px;
-  height: 250px;
-  margin: 0 auto;
-  overflow: hidden;
-  line-height: 0;
 }
 
 .site-banner img {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center;
+  height: auto;
   display: block;
-  margin: 0;
 }
 </style>
 
