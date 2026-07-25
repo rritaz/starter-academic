@@ -46,7 +46,7 @@ padding = ["0", "0", "0", "0"]
   line-height: 0;
 }
 
-/* Crop only the white space at the top */
+/* Crop ONLY the top white space */
 .site-banner img {
   width: 100% !important;
   max-width: 100% !important;
@@ -54,8 +54,12 @@ padding = ["0", "0", "0", "0"]
   display: block;
   padding: 0 !important;
 
-  clip-path: inset(110px 0 0 0) !important;
-  margin: -110px 0 0 0 !important;
+  clip-path: inset(150px 0 0 0) !important;
+  margin-top: -150px !important;
+
+  object-fit: contain !important;
+  object-position: center !important;
+  transform: none !important;
 }
 
 /* Reduce the space before the About section */
@@ -69,14 +73,16 @@ section#about,
 
 /* Mobile */
 @media (max-width: 768px) {
+
   .site-banner {
     width: calc(100% - 30px);
   }
 
   .site-banner img {
-    clip-path: inset(45px 0 0 0) !important;
-    margin-top: -45px !important;
+    clip-path: inset(65px 0 0 0) !important;
+    margin-top: -65px !important;
   }
+
 }
 
 </style>
