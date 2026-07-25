@@ -5,6 +5,14 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear in.
 
+design:
+  spacing:
+    padding:
+      - "10px"
+      - "0"
+      - "0"
+      - "0"
+      
 title = ""
 
 # Choose the user profile to display
