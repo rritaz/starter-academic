@@ -14,7 +14,6 @@ padding = ["0", "0", "0", "0"]
 
 <style>
 
-/* Remove spacing around the banner */
 #banner,
 #banner.home-section,
 .home-section.wg-blank {
@@ -22,7 +21,6 @@ padding = ["0", "0", "0", "0"]
   padding: 0 !important;
 }
 
-/* Remove Wowchemy container restrictions */
 #banner .container,
 #banner .container-fluid,
 #banner .row,
@@ -37,23 +35,28 @@ padding = ["0", "0", "0", "0"]
   padding: 0 !important;
 }
 
-/* Banner width */
 .site-banner {
   width: calc(100% - 100px);
   max-width: 1350px;
   margin: 0 auto;
   padding: 0;
   line-height: 0;
+  height: auto !important;
+  overflow: visible !important;
 }
 
-/* Banner image */
 .site-banner img {
-  width: 100%;
-  height: auto;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  margin: 0 !important;
+  clip-path: none !important;
+  transform: none !important;
   display: block;
 }
 
-/* Reduce space before About section */
 #about,
 section#about,
 .home-section.wg-about,
@@ -62,17 +65,14 @@ section#about,
   padding-top: 8px !important;
 }
 
-/* Mobile */
 @media (max-width: 768px) {
-
   .site-banner {
     width: calc(100% - 30px);
   }
-
 }
 
 </style>
 
 <div class="site-banner">
-  <img src="/media/headers/bubbles-wide.jpeg" alt="Chicago skyline">
+  <img src="/media/headers/bubbles-wide-cropped.jpeg" alt="Chicago skyline">
 </div>
