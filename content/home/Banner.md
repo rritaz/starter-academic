@@ -14,7 +14,7 @@ padding = ["0", "0", "0", "0"]
 
 <style>
 
-/* Remove spacing around banner */
+/* Remove spacing around the banner section */
 #banner,
 #banner.home-section,
 .home-section.wg-blank {
@@ -37,29 +37,30 @@ padding = ["0", "0", "0", "0"]
   padding: 0 !important;
 }
 
-/* Banner container */
+/* Banner width */
 .site-banner {
   width: calc(100% - 100px);
   max-width: 1350px;
-  height: 180px;          /* Reduce or increase this if desired */
   margin: 0 auto;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  padding: 0;
   line-height: 0;
 }
 
-/* Banner image */
+/* Display the full panoramic image without cropping */
 .site-banner img {
-  width: 100%;
-  height: auto;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
   display: block;
-  transform: scale(0.90);
-  transform-origin: top center;
+  object-fit: contain !important;
+  object-position: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: none !important;
+  clip-path: none !important;
 }
 
-/* Reduce gap before About section */
+/* Reduce the space before the About section */
 #about,
 section#about,
 .home-section.wg-about,
@@ -70,20 +71,13 @@ section#about,
 
 /* Mobile */
 @media (max-width: 768px) {
-
   .site-banner {
     width: calc(100% - 30px);
-    height: 120px;
   }
-
-  .site-banner img {
-    transform: scale(0.95);
-  }
-
 }
 
 </style>
 
 <div class="site-banner">
-  <img src="/media/headers/bubbles-wide.png" alt="Chicago skyline">
+  <img src="/media/headers/chicago-skyline-line.png" alt="Chicago skyline">
 </div>
