@@ -37,27 +37,25 @@ padding = ["0", "0", "0", "0"]
   padding: 0 !important;
 }
 
-/* Banner width and visible cropped area */
+/* Banner width */
 .site-banner {
   width: calc(100% - 100px);
   max-width: 1350px;
-  height: 300px;
   margin: 0 auto;
   padding: 0;
   line-height: 0;
-  overflow: hidden;
 }
 
-/* Keep the same image but move it upward */
+/* Crop only the white space at the top */
 .site-banner img {
   width: 100% !important;
   max-width: 100% !important;
   height: auto !important;
   display: block;
-  margin: -110px 0 0 0 !important;
   padding: 0 !important;
-  transform: none !important;
-  clip-path: none !important;
+
+  clip-path: inset(110px 0 0 0) !important;
+  margin: -110px 0 0 0 !important;
 }
 
 /* Reduce the space before the About section */
@@ -73,10 +71,10 @@ section#about,
 @media (max-width: 768px) {
   .site-banner {
     width: calc(100% - 30px);
-    height: 190px;
   }
 
   .site-banner img {
+    clip-path: inset(45px 0 0 0) !important;
     margin-top: -45px !important;
   }
 }
