@@ -79,5 +79,5 @@ section#about,
 </style>
 
 <div class="site-banner">
-  <img src="/media/headers/D4A84163-02AA-4D31-A988-F78C4811A4DB.png" alt="Chicago skyline">
+  <img src="/media/headers/069F1DA0-FEDF-4D42-A750-67C45D83A3B6.png" alt="Chicago skyline">
 </div>
