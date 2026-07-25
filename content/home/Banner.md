@@ -14,7 +14,7 @@ padding = ["0", "0", "0", "0"]
 
 <style>
 
-/* Remove spacing around the banner section */
+/* Remove spacing around the banner */
 #banner,
 #banner.home-section,
 .home-section.wg-blank {
@@ -22,7 +22,7 @@ padding = ["0", "0", "0", "0"]
   padding: 0 !important;
 }
 
-/* Remove the default Wowchemy width and padding */
+/* Remove Wowchemy container restrictions */
 #banner .container,
 #banner .container-fluid,
 #banner .row,
@@ -37,34 +37,23 @@ padding = ["0", "0", "0", "0"]
   padding: 0 !important;
 }
 
-/* Match approximately the width of the navigation area */
+/* Banner width */
 .site-banner {
   width: calc(100% - 100px);
   max-width: 1350px;
   margin: 0 auto;
   padding: 0;
   line-height: 0;
-  overflow: hidden;
 }
 
-/*
-Keep the complete width of the image.
-Crop only 55px from the top.
-*/
+/* Banner image */
 .site-banner img {
   width: 100%;
   height: auto;
   display: block;
-  margin-top: -55px;
-  clip-path: inset(55px 0 0 0);
 }
 
-/* Remove the space created by the clipped portion */
-.site-banner {
-  margin-bottom: -55px;
-}
-
-/* Keep the About section close to the banner */
+/* Reduce space before About section */
 #about,
 section#about,
 .home-section.wg-about,
@@ -78,12 +67,6 @@ section#about,
 
   .site-banner {
     width: calc(100% - 30px);
-    margin-bottom: -25px;
-  }
-
-  .site-banner img {
-    margin-top: -25px;
-    clip-path: inset(25px 0 0 0);
   }
 
 }
