@@ -46,7 +46,7 @@ padding = ["0", "0", "0", "0"]
   line-height: 0;
 }
 
-/* Crop ONLY the top white space */
+/* Crop 169px from the top and 26px from the bottom */
 .site-banner img {
   width: 100% !important;
   max-width: 100% !important;
@@ -54,8 +54,9 @@ padding = ["0", "0", "0", "0"]
   display: block;
   padding: 0 !important;
 
-  clip-path: inset(150px 0 0 0) !important;
-  margin-top: -150px !important;
+  clip-path: inset(169px 0 26px 0) !important;
+  margin-top: -169px !important;
+  margin-bottom: -26px !important;
 
   object-fit: contain !important;
   object-position: center !important;
@@ -79,8 +80,9 @@ section#about,
   }
 
   .site-banner img {
-    clip-path: inset(65px 0 0 0) !important;
-    margin-top: -65px !important;
+    clip-path: inset(84px 0 13px 0) !important;
+    margin-top: -84px !important;
+    margin-bottom: -13px !important;
   }
 
 }
