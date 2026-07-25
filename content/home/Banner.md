@@ -13,6 +13,7 @@ padding = ["0", "0", "0", "0"]
 +++
 
 <style>
+/* Remove spacing around the banner section */
 #banner,
 #banner.home-section,
 .home-section.wg-blank {
@@ -20,6 +21,7 @@ padding = ["0", "0", "0", "0"]
   padding: 0 !important;
 }
 
+/* Allow the widget content to use the full section width */
 #banner .container,
 #banner .container-fluid,
 #banner .row,
@@ -34,20 +36,45 @@ padding = ["0", "0", "0", "0"]
   padding: 0 !important;
 }
 
+/* Align banner with the site name and navigation */
 .site-banner {
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
+  width: calc(100% - 100px);
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0;
   line-height: 0;
-  overflow: hidden;
 }
 
+/* Show the full image without cropping */
 .site-banner img {
   width: 100%;
   height: auto;
   display: block;
   margin: 0;
   padding: 0;
+}
+
+/* Reduce space between banner and About section */
+#about,
+section#about,
+.home-section.wg-about,
+.home-section.wg-about-avatar {
+  margin-top: 0 !important;
+  padding-top: 10px !important;
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+  .site-banner {
+    width: calc(100% - 30px);
+  }
+
+  #about,
+  section#about,
+  .home-section.wg-about,
+  .home-section.wg-about-avatar {
+    padding-top: 10px !important;
+  }
 }
 </style>
 
