@@ -38,17 +38,14 @@ design:
 
 .full-width-banner {
   width: 100vw;
-  height: 190px;
   margin-left: calc(50% - 50vw);
-  overflow: hidden;
   line-height: 0;
+  overflow: hidden;
 }
 
 .full-width-banner img {
   width: 100%;
-  height: 190px;
-  object-fit: cover;
-  object-position: center 65%;
+  height: auto;
   display: block;
   margin: 0;
 }
