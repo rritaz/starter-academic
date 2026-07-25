@@ -14,6 +14,7 @@ padding = ["0", "0", "0", "0"]
 
 <style>
 
+/* Remove spacing around banner */
 #banner,
 #banner.home-section,
 .home-section.wg-blank {
@@ -21,6 +22,7 @@ padding = ["0", "0", "0", "0"]
   padding: 0 !important;
 }
 
+/* Remove Wowchemy container restrictions */
 #banner .container,
 #banner .container-fluid,
 #banner .row,
@@ -35,28 +37,29 @@ padding = ["0", "0", "0", "0"]
   padding: 0 !important;
 }
 
+/* Banner container */
 .site-banner {
   width: calc(100% - 100px);
   max-width: 1350px;
+  height: 180px;          /* Reduce or increase this if desired */
   margin: 0 auto;
-  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   line-height: 0;
-  height: auto !important;
-  overflow: visible !important;
 }
 
+/* Banner image */
 .site-banner img {
-  width: 100% !important;
-  max-width: 100% !important;
-  height: auto !important;
-  object-fit: contain !important;
-  object-position: center !important;
-  margin: 0 !important;
-  clip-path: none !important;
-  transform: none !important;
+  width: 100%;
+  height: auto;
   display: block;
+  transform: scale(0.90);
+  transform-origin: top center;
 }
 
+/* Reduce gap before About section */
 #about,
 section#about,
 .home-section.wg-about,
@@ -65,10 +68,18 @@ section#about,
   padding-top: 8px !important;
 }
 
+/* Mobile */
 @media (max-width: 768px) {
+
   .site-banner {
     width: calc(100% - 30px);
+    height: 120px;
   }
+
+  .site-banner img {
+    transform: scale(0.95);
+  }
+
 }
 
 </style>
