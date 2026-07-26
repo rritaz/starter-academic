@@ -16,8 +16,9 @@ header:
 <style>
 
 /* Align the Publications page content */
-.container,
-.universal-wrapper {
+/* Contact page width */
+main .container,
+main .universal-wrapper {
   width: calc(100% - 60px) !important;
   max-width: 1500px !important;
   margin-left: auto !important;
