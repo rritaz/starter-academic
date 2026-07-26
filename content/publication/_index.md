@@ -15,13 +15,10 @@ header:
 
 <style>
 
-/*
-Align the complete Publications page with the navigation bar.
-The navigation content is approximately 1500px wide.
-*/
+/* Match the Publications page width to the top navigation */
 .universal-wrapper {
-  width: 100% !important;
-  max-width: 1500px !important;
+  width: calc(100% - 60px) !important;
+  max-width: 1280px !important;
   margin-left: auto !important;
   margin-right: auto !important;
   padding-left: 0 !important;
@@ -29,10 +26,7 @@ The navigation content is approximately 1500px wide.
   box-sizing: border-box !important;
 }
 
-/*
-Reset the publication list rules from the previous code.
-This prevents publications from overlapping the filters.
-*/
+/* Keep the publication list in the normal document flow */
 #container-publications {
   position: static !important;
   left: auto !important;
@@ -40,15 +34,14 @@ This prevents publications from overlapping the filters.
   transform: none !important;
   width: 100% !important;
   max-width: 100% !important;
-  margin: 40px 0 0 0 !important;
+  margin: 35px 0 0 0 !important;
   padding: 0 !important;
-  box-sizing: border-box !important;
   clear: both !important;
+  box-sizing: border-box !important;
 }
 
-/* Each publication uses the full aligned width */
+/* Make each publication follow the same width */
 #container-publications .pub-list-item {
-  position: static !important;
   width: 100% !important;
   max-width: 100% !important;
   margin-left: 0 !important;
@@ -56,22 +49,14 @@ This prevents publications from overlapping the filters.
   box-sizing: border-box !important;
 }
 
-/* Keep the search and filter row above the publications */
+/* Keep filters separated from the publication list */
 .pub-filters {
-  position: static !important;
   width: 100% !important;
-  margin-bottom: 35px !important;
+  margin-bottom: 30px !important;
   clear: both !important;
 }
 
 /* Tablet */
-@media screen and (max-width: 1540px) {
-  .universal-wrapper {
-    width: calc(100% - 60px) !important;
-  }
-}
-
-/* Smaller screens */
 @media screen and (max-width: 1000px) {
   .universal-wrapper {
     width: calc(100% - 40px) !important;
@@ -85,7 +70,7 @@ This prevents publications from overlapping the filters.
   }
 
   #container-publications {
-    margin-top: 30px !important;
+    margin-top: 25px !important;
   }
 }
 
