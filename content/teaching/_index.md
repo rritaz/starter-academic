@@ -11,7 +11,7 @@ draft: false
 .universal-wrapper,
 .page-body {
   width: calc(100% - 60px) !important;
-  max-width: 1202px !important;
+  max-width: 1102px !important;
   margin-left: auto !important;
   margin-right: auto !important;
   box-sizing: border-box;
