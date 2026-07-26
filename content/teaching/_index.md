@@ -5,16 +5,30 @@ draft: false
 ---
 
 <style>
+
+/* Widen the main content area on this page */
+.article-container,
+.universal-wrapper,
+.page-body {
+  width: calc(100% - 60px) !important;
+  max-width: 1400px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
+}
+
 .teaching-areas-box {
   background-color: #f4f8f8;
   border-left: 5px solid #58ad9b;
   border-radius: 8px;
   padding: 28px 36px;
-  margin: 10px -50px 42px;
-  width: calc(100% + 100px);
+  margin: 10px 0 42px;
+  width: 100%;
+  max-width: 100%;
   box-sizing: border-box;
   display: flex;
   align-items: flex-start;
+  overflow: visible;
 }
 
 .teaching-areas-box > div:last-child {
@@ -56,7 +70,8 @@ draft: false
 .teaching-value {
   line-height: 1.7;
   min-width: 0;
-  overflow-wrap: break-word;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 .courses-heading {
@@ -138,14 +153,25 @@ draft: false
 }
 
 @media screen and (max-width: 1000px) {
-  .teaching-areas-box {
-    margin-left: -20px;
-    margin-right: -20px;
-    width: calc(100% + 40px);
+  .article-container,
+  .universal-wrapper,
+  .page-body {
+    width: calc(100% - 40px) !important;
+  }
+
+  .teaching-grid {
+    grid-template-columns: 190px minmax(0, 1fr);
+    column-gap: 22px;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .article-container,
+  .universal-wrapper,
+  .page-body {
+    width: calc(100% - 30px) !important;
+  }
+
   .course-grid {
     grid-template-columns: 1fr;
   }
@@ -187,13 +213,13 @@ draft: false
 <div class="teaching-grid">
 
 <div class="teaching-label">Biostatistics</div>
-<div class="teaching-value">Descriptive & inferential statistics, regression modeling, and categorical & longitudinal data analysis </div>
+<div class="teaching-value">Descriptive and inferential statistics, regression modeling, and categorical and longitudinal data analysis.</div>
 
 <div class="teaching-label">Research Methods</div>
-<div class="teaching-value">Design of experimental & observational studies, causal inference, bias, and confounding </div>
+<div class="teaching-value">Design of experimental and observational studies, causal inference, bias, and confounding.</div>
 
 <div class="teaching-label">Statistical Computing</div>
-<div class="teaching-value">Applied data analysis using R statistical software </div>
+<div class="teaching-value">Applied data analysis using R statistical software.</div>
 
 </div>
 </div>
@@ -231,9 +257,7 @@ draft: false
 <div class="course-code">IPHS 402</div>
 <div class="course-title">Analytic and Research Methods in Public Health</div>
 <div class="course-semester">Fall 2023 and Fall 2024 | Graduate level</div>
-<p class="course-description"> Introduces students to the analytic and research methods used to carry out the core functions of evidence-based public health.
-
-</p>
+<p class="course-description">Introduces students to the analytic and research methods used to carry out the core functions of evidence-based public health.</p>
 </div>
 </div>
 
