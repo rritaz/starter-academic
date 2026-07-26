@@ -20,17 +20,17 @@ css_class = "research-areas-section"
 icon = "chart-line"
 icon_pack = "fas"
 name = "Meta-analysis"
-description = "Effect sizes, robust variance estimation, and statistical inference in small-sample settings."
+description = "Effect sizes, robust variance estimation, and statistical inference in small-sample settings"
 
 [[feature]]
 icon = "balance-scale"
 icon_pack = "fas"
 name = "Causal Inference"
-description = "Randomized and quasi-experimental designs, covariate-adjusted effect sizes, and analysis of observational data."
+description = "Randomized and quasi-experimental designs, covariate-adjusted effect sizes, and analysis of observational data"
 
 [[feature]]
 icon = "users"
 icon_pack = "fas"
 name = "Human Rights Statistics"
-description = "Statistical methods supporting refugee populations."
+description = "Statistical methods supporting refugee populations"
 +++
