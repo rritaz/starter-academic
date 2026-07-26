@@ -1,5 +1,5 @@
 ---
-title: "Teaching"
+title: ""
 date: 2023-01-01
 draft: false
 ---
@@ -213,10 +213,10 @@ draft: false
 <div class="teaching-grid">
 
 <div class="teaching-label">Biostatistics</div>
-<div class="teaching-value">Descriptive and inferential statistics, regression modeling, and categorical and longitudinal data analysis.</div>
+<div class="teaching-value">Descriptive & inferential statistics, regression modeling, and categorical & longitudinal data analysis </div>
 
 <div class="teaching-label">Research Methods</div>
-<div class="teaching-value">Design of experimental and observational studies, causal inference, bias, and confounding.</div>
+<div class="teaching-value">Design of experimental & observational studies, causal inference, bias, and confounding.</div>
 
 <div class="teaching-label">Statistical Computing</div>
 <div class="teaching-value">Applied data analysis using R statistical software.</div>
