@@ -48,7 +48,9 @@ draft: false
 .teaching-areas-title {
   font-size: 21px;
   font-weight: 600;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #d8e4e3;
 }
 
 .teaching-grid {
