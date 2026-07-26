@@ -8,15 +8,15 @@ draft: false
 
 /* Make the Teaching page about 0.5 cm narrower on each side */
 /* Match the Publications page width */
-.article-container,
-.universal-wrapper,
-.page-body {
+main .container,
+main .universal-wrapper {
   width: calc(100% - 60px) !important;
-  max-width: 980px !important;
+  max-width: 1500px !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
+
 
 .teaching-areas-box {
   background-color: #f4f8f8;
