@@ -19,6 +19,7 @@ draft: false
 
 .teaching-areas-box > div:last-child {
   flex: 1;
+  min-width: 0;
 }
 
 .teaching-areas-icon {
@@ -33,24 +34,25 @@ draft: false
 .teaching-areas-title {
   font-size: 21px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
-.teaching-areas-text {
+.teaching-grid {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  column-gap: 24px;
+  row-gap: 14px;
+  align-items: start;
+}
+
+.teaching-label {
+  color: #2f4858;
+  font-weight: 600;
   line-height: 1.7;
 }
 
-.teaching-areas-text ul {
-  margin: 0;
-  padding-left: 20px;
-}
-
-.teaching-areas-text li {
-  margin-bottom: 10px;
-}
-
-.teaching-areas-text li:last-child {
-  margin-bottom: 0;
+.teaching-value {
+  line-height: 1.7;
 }
 
 .courses-heading {
@@ -94,12 +96,13 @@ draft: false
   padding: 23px 24px;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
   height: 100%;
+  box-sizing: border-box;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .course-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-  transition: all 0.2s ease;
 }
 
 .course-code {
@@ -143,6 +146,23 @@ draft: false
     font-size: 26px;
     margin-right: 14px;
   }
+
+  .teaching-grid {
+    grid-template-columns: 1fr;
+    row-gap: 4px;
+  }
+
+  .teaching-label {
+    margin-top: 12px;
+  }
+
+  .teaching-label:first-child {
+    margin-top: 0;
+  }
+
+  .teaching-value {
+    margin-bottom: 4px;
+  }
 }
 </style>
 
@@ -150,12 +170,17 @@ draft: false
 <div class="teaching-areas-icon"><i class="fas fa-graduation-cap"></i></div>
 <div>
 <div class="teaching-areas-title">Teaching Areas</div>
-<div class="teaching-areas-text">
-<ul>
-<li><strong>Biostatistics:</strong> Descriptive and inferential statistics, categorical data analysis, regression modeling, and longitudinal data analysis.</li>
-<li><strong>Research Methods:</strong> Study design, experimental design, epidemiologic methods, bias and confounding.</li>
-<li><strong>Statistical Computing:</strong> Applied data analysis using statistical software.</li>
-</ul>
+<div class="teaching-grid">
+
+<div class="teaching-label">Biostatistics</div>
+<div class="teaching-value">Descriptive and inferential statistics, categorical data analysis, regression modeling, and longitudinal data analysis.</div>
+
+<div class="teaching-label">Research Methods</div>
+<div class="teaching-value">Study design, experimental design, epidemiologic methods, bias and confounding.</div>
+
+<div class="teaching-label">Statistical Computing</div>
+<div class="teaching-value">Applied data analysis using statistical software.</div>
+
 </div>
 </div>
 </div>
