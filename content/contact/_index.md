@@ -7,13 +7,14 @@ draft: false
 <style>
 
 /* Contact page width */
-main .container,
-main .universal-wrapper {
+.article-container,
+.universal-wrapper,
+.page-body {
   width: calc(100% - 60px) !important;
-  max-width: 1500px !important;
+  max-width: 1204px !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  box-sizing: border-box !important;
+  box-sizing: border-box;
 }
 
 /* Main contact section */
@@ -30,7 +31,7 @@ main .universal-wrapper {
   margin: 0 0 20px;
 }
 
-/* Two-column card layout */
+/* Two-column layout */
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -67,6 +68,7 @@ main .universal-wrapper {
   min-width: 0;
 }
 
+/* Card titles */
 .contact-card-title {
   color: #2f4858;
   font-size: 20px;
@@ -114,7 +116,7 @@ main .universal-wrapper {
   margin: 0;
 }
 
-/* Responsive layout */
+/* Tablet layout */
 @media screen and (max-width: 1000px) {
   .article-container,
   .universal-wrapper,
@@ -123,6 +125,7 @@ main .universal-wrapper {
   }
 }
 
+/* Mobile layout */
 @media screen and (max-width: 768px) {
   .article-container,
   .universal-wrapper,
@@ -162,25 +165,7 @@ main .universal-wrapper {
 
 <div class="contact-grid">
 
-<div class="contact-card">
-
-<div class="contact-icon">
-<i class="fas fa-envelope"></i>
-</div>
-
-<div class="contact-card-content">
-
-<div class="contact-card-title">Email</div>
-
-<div class="contact-name">Rrita Zejnullahi</div>
-
-<p class="contact-email">
-<a href="mailto:rritaz@uic.edu">rritaz@uic.edu</a>
-</p>
-
-</div>
-</div>
-
+<!-- University Address: left card -->
 <div class="contact-card">
 
 <div class="contact-icon">
@@ -202,5 +187,26 @@ Chicago, IL 60612
 </div>
 </div>
 
+<!-- Email: right card -->
+<div class="contact-card">
+
+<div class="contact-icon">
+<i class="fas fa-envelope"></i>
 </div>
+
+<div class="contact-card-content">
+
+<div class="contact-card-title">Email</div>
+
+<div class="contact-name">Rrita Zejnullahi</div>
+
+<p class="contact-email">
+<a href="mailto:rritaz@uic.edu">rritaz@uic.edu</a>
+</p>
+
+</div>
+</div>
+
+</div>
+
 </div>
