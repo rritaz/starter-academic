@@ -8,7 +8,6 @@ title: "Publications"
 #   4 = Citation
 view: 4
 
-# Optional header image (relative to `static/img/` folder).
 header:
   caption: ""
   image: ""
@@ -16,21 +15,25 @@ header:
 
 <style>
 
-/* Match the wider content area used on the Teaching page */
+/* Align the Publications page with the site navigation */
 .article-container,
 .universal-wrapper,
-.page-body {
+.page-body,
+.container {
   width: calc(100% - 60px) !important;
-  max-width: 1400px !important;
+  max-width: 1540px !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 1000px) {
   .article-container,
   .universal-wrapper,
-  .page-body {
+  .page-body,
+  .container {
     width: calc(100% - 40px) !important;
   }
 }
@@ -38,7 +41,8 @@ header:
 @media screen and (max-width: 768px) {
   .article-container,
   .universal-wrapper,
-  .page-body {
+  .page-body,
+  .container {
     width: calc(100% - 30px) !important;
   }
 }
