@@ -9,10 +9,16 @@ draft: false
   background-color: #f4f8f8;
   border-left: 5px solid #58ad9b;
   border-radius: 8px;
-  padding: 22px 26px;
+  padding: 28px 36px;
   margin: 10px 0 42px;
   display: flex;
   align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.teaching-areas-box > div:last-child {
+  flex: 1;
 }
 
 .teaching-areas-icon {
