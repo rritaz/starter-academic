@@ -2,7 +2,9 @@ I teach graduate-level biostatistics and research methods in public health and t
 
 ### Teaching Areas
 
-Biostatistics • Research Methods • Study Design • Epidemiologic Methods • Categorical Data Analysis • Regression Modeling • Experimental Design • Longitudinal Data Analysis • Applied Statistical Computing
+- **Biostatistics:** Descriptive and inferential statistics, categorical data analysis, regression modeling, longitudinal data analysis
+- **Research Methods:** Study design, experimental design, epidemiologic methods, bias and confounding
+- **Statistical Computing:** Applied data analysis using statistical software
 
 ### Courses
 
