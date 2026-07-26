@@ -7,14 +7,13 @@ draft: false
 <style>
 
 /* Contact page width */
-.article-container,
-.universal-wrapper,
-.page-body {
+main .container,
+main .universal-wrapper {
   width: calc(100% - 60px) !important;
-  max-width: 1204px !important;
+  max-width: 1500px !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 
 /* Main contact section */
