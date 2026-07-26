@@ -10,16 +10,11 @@ draft: false
   border-left: 5px solid #58ad9b;
   border-radius: 8px;
   padding: 28px 36px;
-  margin-top: 10px;
-  margin-bottom: 42px;
-  width: min(1400px, calc(100vw - 60px));
+  margin: 10px -50px 42px;
+  width: calc(100% + 100px);
   box-sizing: border-box;
   display: flex;
   align-items: flex-start;
-
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .teaching-areas-box > div:last-child {
@@ -44,9 +39,9 @@ draft: false
 
 .teaching-grid {
   display: grid;
-  grid-template-columns: 220px minmax(0, 1fr);
+  grid-template-columns: 210px minmax(0, 1fr);
   column-gap: 28px;
-  row-gap: 14px;
+  row-gap: 18px;
   align-items: start;
   width: 100%;
   min-width: 0;
@@ -142,6 +137,14 @@ draft: false
   margin: 0;
 }
 
+@media screen and (max-width: 1000px) {
+  .teaching-areas-box {
+    margin-left: -20px;
+    margin-right: -20px;
+    width: calc(100% + 40px);
+  }
+}
+
 @media screen and (max-width: 768px) {
   .course-grid {
     grid-template-columns: 1fr;
@@ -149,11 +152,8 @@ draft: false
 
   .teaching-areas-box {
     width: 100%;
+    margin: 10px 0 42px;
     padding: 20px;
-    position: static;
-    transform: none;
-    margin-left: 0;
-    margin-right: 0;
   }
 
   .teaching-areas-icon {
