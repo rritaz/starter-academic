@@ -223,7 +223,7 @@ main .universal-wrapper {
 <div class="teaching-value">Descriptive &amp; inferential statistics, regression modeling, and categorical &amp; longitudinal data analysis</div>
 
 <div class="teaching-label">Research Methods</div>
-<div class="teaching-value">Design of experimental &amp; observational studies, causal inference, bias, and confounding</div>
+<div class="teaching-value">Design of experimental &amp; observational studies, causal inference, bias, confounding, and effect modification </div>
 
 <div class="teaching-label">Statistical Computing</div>
 <div class="teaching-value">Applied data analysis using R statistical software</div>
