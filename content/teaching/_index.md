@@ -17,10 +17,6 @@ draft: false
   align-items: flex-start;
 }
 
-.teaching-areas-box > div:last-child {
-  flex: 1;
-  min-width: 0;
-}
 
 .teaching-areas-icon {
   color: #58ad9b;
