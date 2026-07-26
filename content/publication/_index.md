@@ -15,8 +15,9 @@ header:
 
 <style>
 
-/* Align the Publications page content */
-/* Contact page width */
+/*
+Keep the Publications page width unchanged.
+*/
 main .container,
 main .universal-wrapper {
   width: calc(100% - 60px) !important;
@@ -27,8 +28,8 @@ main .universal-wrapper {
 }
 
 /*
-Style the title generated automatically by Wowchemy.
-This matches the custom Contact title.
+Style only the existing Publications title
+to match the Contact title.
 */
 .universal-wrapper.pt-3 h1,
 .universal-wrapper > h1,
@@ -38,37 +39,32 @@ h1.article-title {
   font-weight: 600 !important;
   line-height: 1.3 !important;
   color: #2f4858 !important;
-  margin: 0 0 20px 0 !important;
+  margin-bottom: 20px !important;
   padding: 0 !important;
   letter-spacing: normal !important;
   text-transform: none !important;
 }
 
-/* Remove Wowchemy's extra space around the title */
-.universal-wrapper.pt-3 {
-  padding-top: 10px !important;
-  padding-bottom: 0 !important;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-/* Separate filters from publication entries */
-.form-row {
+/*
+Keep the search and filter controls properly separated
+from the publication entries.
+*/
+main .form-row {
   margin-bottom: 38px !important;
 }
 
 /* Medium screens */
 @media screen and (max-width: 1000px) {
-  .container,
-  .universal-wrapper {
+  main .container,
+  main .universal-wrapper {
     width: calc(100% - 40px) !important;
   }
 }
 
 /* Mobile screens */
 @media screen and (max-width: 768px) {
-  .container,
-  .universal-wrapper {
+  main .container,
+  main .universal-wrapper {
     width: calc(100% - 30px) !important;
   }
 
@@ -80,7 +76,7 @@ h1.article-title {
     margin-bottom: 18px !important;
   }
 
-  .form-row {
+  main .form-row {
     margin-bottom: 30px !important;
   }
 }
