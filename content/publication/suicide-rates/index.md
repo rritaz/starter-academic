@@ -1,7 +1,7 @@
 ---
 title: "Suicide Rates in National Collegiate Athletic Association (NCAA) Student-Athletes: A 12-Year Longitudinal Analysis"
 date: "2026"
-publishDate: 2026-01-26T00:00:00
+publishDate: 2026-01-02T00:00:00
 authors: ["Karrie L. Hamstra-Wright", "Ellie Gasso", "Rrita Zejnullahi", "John E. Coumbe-Lilley"]
 publication_types: ["2"]
 abstract: "Objective: This study compared NCAA suicide rates by gender, sport, contact type, participation type, and division over 12 academic years. 
