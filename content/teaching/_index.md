@@ -80,6 +80,8 @@ main .universal-wrapper {
 .courses-heading {
   margin-top: 42px;
   margin-bottom: 28px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #d8e4e3;
 }
 
 .university-heading {
