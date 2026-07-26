@@ -15,9 +15,7 @@ header:
 
 <style>
 
-/*
-Align only the main Publications page with the navigation.
-*/
+/* Align the Publications page content */
 main .container,
 main .universal-wrapper {
   width: calc(100% - 60px) !important;
@@ -28,21 +26,41 @@ main .universal-wrapper {
 }
 
 /*
-Style the existing Publications title to match the Contact title.
+Make the existing Wowchemy Publications title
+match the Contact title.
 */
-main h1 {
+main .universal-wrapper > h1,
+main .article-header h1,
+main .page-header h1,
+main h1.article-title {
   font-size: 30px !important;
   font-weight: 600 !important;
   line-height: 1.3 !important;
   color: #2f4858 !important;
   margin-top: 0 !important;
   margin-bottom: 20px !important;
+  padding: 0 !important;
+  letter-spacing: normal !important;
+  text-transform: none !important;
 }
 
-/*
-Keep the search and filter controls separated
-from the publication entries.
-*/
+/* Remove extra spacing around the title container */
+main .universal-wrapper.pt-3,
+main .universal-wrapper.pb-3,
+main .article-header,
+main .page-header {
+  padding-top: 10px !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Remove any accidental custom duplicate title */
+.publications-page-heading {
+  display: none !important;
+}
+
+/* Space below the search and filter controls */
 main .form-row {
   margin-bottom: 38px !important;
 }
@@ -62,7 +80,10 @@ main .form-row {
     width: calc(100% - 30px) !important;
   }
 
-  main h1 {
+  main .universal-wrapper > h1,
+  main .article-header h1,
+  main .page-header h1,
+  main h1.article-title {
     font-size: 27px !important;
     margin-bottom: 18px !important;
   }
