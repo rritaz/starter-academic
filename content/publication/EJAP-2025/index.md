@@ -1,7 +1,7 @@
 ---
 title: "Mechanisms of exercise-induced reduction in peripheral arterial stiffness"
 date: "2025"
-publishDate: 2025-05-26T00:00:00
+publishDate: 2026-01-01T00:00:00
 authors: ["Natalia S. Lima", "Ronald E. Jackson", "Brooks A. Hibner", "Sara R. Sherman", "Bo Fernhall", "Tracy Baynard", "Craig Crandall", "Shane A. Phillips", "Rrita Zejnullahi", "Philip S. Clifford"]
 publication_types: ["2"]
 abstract: "
