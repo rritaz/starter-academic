@@ -10,8 +10,8 @@ draft: false
   border-left: 5px solid #58ad9b;
   border-radius: 8px;
   padding: 28px 36px;
-  margin: 10px -100px 42px;
-  width: calc(100% + 200px);
+  margin: 10px calc(50% - 50vw) 42px;
+  width: 100vw;
   box-sizing: border-box;
   display: flex;
   align-items: flex-start;
