@@ -7,11 +7,12 @@ draft: false
 <style>
 
 /* Make the Teaching page about 0.5 cm narrower on each side */
+/* Match the Publications page width */
 .article-container,
 .universal-wrapper,
 .page-body {
-  width: calc(100% - 60px) !important;
-  max-width: 1102px !important;
+  max-width: var(--article-container-width) !important;
+  width: 100% !important;
   margin-left: auto !important;
   margin-right: auto !important;
   box-sizing: border-box;
