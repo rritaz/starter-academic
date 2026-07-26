@@ -5,99 +5,133 @@ draft: false
 ---
 
 <style>
-main .container,
-main .universal-wrapper {
+
+/* Contact page width */
+.article-container,
+.universal-wrapper,
+.page-body {
   width: calc(100% - 60px) !important;
-  max-width: 1500px !important;
+  max-width: 1204px !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  box-sizing: border-box !important;
-}
-
-
-.contact-section {
-  width: 1000px;
-  max-width: 100%;
-  margin: 20px 0 60px;
-}
-
-.contact-heading {
-  font-size: 34px;
-  font-weight: 600;
-  margin: 0 0 28px 0 !important;
-}
-
-.contact-card {
-  width: 100%;
-  background-color: #f4f8f8;
-  border-left: 5px solid #58ad9b;
-  border-radius: 8px;
-  padding: 30px 38px;
   box-sizing: border-box;
-  display: grid;
-  grid-template-columns: 30px minmax(0, 1fr);
-  column-gap: 22px;
-  align-items: start;
 }
 
+/* Main contact section */
+.contact-section {
+  width: 100%;
+  margin: 10px 0 50px;
+}
+
+/* Page heading */
+.contact-page-heading {
+  font-size: 30px;
+  font-weight: 600;
+  color: #2f4858;
+  margin: 0 0 12px;
+}
+
+.contact-heading-line {
+  width: 100%;
+  height: 1px;
+  background-color: #d8e4e3;
+  margin-bottom: 26px;
+}
+
+/* Introductory text */
+.contact-intro {
+  max-width: 760px;
+  font-size: 17px;
+  line-height: 1.7;
+  margin: 0 0 28px;
+  color: #4d5b63;
+}
+
+/* Two-column card layout */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  align-items: stretch;
+}
+
+/* Individual cards */
+.contact-card {
+  background-color: #ffffff;
+  border: 1px solid #e1e7ea;
+  border-radius: 10px;
+  padding: 25px 27px;
+  box-sizing: border-box;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: flex-start;
+  min-width: 0;
+}
+
+/* Icons */
 .contact-icon {
   color: #58ad9b;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 1;
-  margin: 0 !important;
-  padding: 0 !important;
+  margin-right: 18px;
+  padding-top: 2px;
+  flex-shrink: 0;
 }
 
-.contact-content {
+/* Card content */
+.contact-card-content {
+  flex: 1;
   min-width: 0;
-  margin: 0 !important;
-  padding: 0 !important;
 }
 
+.contact-card-title {
+  color: #2f4858;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e1e7ea;
+}
+
+/* Name */
 .contact-name {
   color: #2f4858;
-  font-size: 23px;
+  font-size: 18px;
   font-weight: 600;
-  line-height: 1.2;
-  margin: 0 0 4px 0 !important;
-  padding: 0 !important;
+  line-height: 1.4;
+  margin: 0 0 5px;
 }
 
+/* Email */
 .contact-email {
-  line-height: 1.4;
-  margin: 0 0 10px 0 !important;
-  padding: 0 !important;
+  margin: 0;
+  line-height: 1.6;
 }
 
 .contact-email a {
-  color: #58ad9b;
+  color: #4f9f90;
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
+  overflow-wrap: anywhere;
 }
 
 .contact-email a:hover {
+  color: #397c70;
   text-decoration: underline;
 }
 
-.contact-divider {
-  border: 0;
-  border-top: 1px solid #d8e4e3;
-  margin: 10px 0 !important;
-  padding: 0 !important;
-}
-
+/* Address */
 .contact-address {
-  line-height: 1.65;
-  margin: 0 !important;
-  padding: 0 !important;
+  color: #4d5b63;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
 }
 
-.contact-card p {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-
+/* Responsive layout */
 @media screen and (max-width: 1000px) {
   .article-container,
   .universal-wrapper,
@@ -113,41 +147,79 @@ main .universal-wrapper {
     width: calc(100% - 30px) !important;
   }
 
-  .contact-section {
-    width: 100%;
-    margin: 10px 0 50px;
+  .contact-page-heading {
+    font-size: 27px;
   }
 
-  .contact-heading {
-    font-size: 30px;
-    margin-bottom: 22px !important;
+  .contact-intro {
+    font-size: 16px;
+    margin-bottom: 22px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
   }
 
   .contact-card {
-    padding: 24px 22px;
-    grid-template-columns: 26px minmax(0, 1fr);
-    column-gap: 16px;
+    padding: 22px 21px;
   }
 
   .contact-icon {
-    font-size: 26px;
+    font-size: 23px;
+    margin-right: 15px;
   }
 
-  .contact-name {
-    font-size: 21px;
+  .contact-card-title {
+    font-size: 19px;
   }
 }
+
 </style>
 
 <div class="contact-section">
-<div class="contact-heading"></div>
+
+<div class="contact-page-heading">Contact</div>
+<div class="contact-heading-line"></div>
+
+<p class="contact-intro">
+I welcome inquiries regarding research collaborations, statistical methodology, and applied biostatistical research.
+</p>
+
+<div class="contact-grid">
+
 <div class="contact-card">
-<div class="contact-icon"><i class="fas fa-envelope"></i></div>
-<div class="contact-content">
-<div class="contact-name">Rrita Zejnullahi</div>
-<div class="contact-email"><a href="mailto:rritaz@uic.edu">rritaz@uic.edu</a></div>
-<hr class="contact-divider">
-<p class="contact-address">University of Illinois Chicago<br>School of Public Health<br>Division of Epidemiology and Biostatistics<br>1603 W. Taylor Street<br>Chicago, IL 60612</p>
+<div class="contact-icon">
+<i class="fas fa-envelope"></i>
 </div>
+
+<div class="contact-card-content">
+<div class="contact-card-title">Email</div>
+<div class="contact-name">Rrita Zejnullahi</div>
+<p class="contact-email">
+<a href="mailto:rritaz@uic.edu">rritaz@uic.edu</a>
+</p>
+</div>
+</div>
+
+<div class="contact-card">
+<div class="contact-icon">
+<i class="fas fa-map-marker-alt"></i>
+</div>
+
+<div class="contact-card-content">
+<div class="contact-card-title">University Address</div>
+
+<address class="contact-address">
+<strong>University of Illinois Chicago</strong><br>
+School of Public Health<br>
+Division of Epidemiology and Biostatistics<br>
+1603 W Taylor Street<br>
+Chicago, IL 60612
+</address>
+
+</div>
+</div>
+
 </div>
 </div>
