@@ -29,7 +29,7 @@ name = "Causal Inference"
 description = "Randomized and quasi-experimental designs, covariate-adjusted effect sizes, and analysis of observational data"
 
 [[feature]]
-icon = "glope"
+icon = "glope-americas"
 icpack = "fas"
 name = "Human Rights Statistics"
 description = "Statistical methods supporting refugee populations"
