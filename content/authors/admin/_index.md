@@ -57,7 +57,8 @@ I am a Clinical Assistant Professor of Biostatistics at the University of Illino
 I develop and apply statistical methods to support evidence-based policy and decision-making in public health and social policy. This includes
 - extensions of meta-analysis methods to small sample situations,
 - the formulation of effect sizes and effect-size estimators for randomized and quasi-experiments when adjusting for covariates, and
-- the development and application of statistical methods related to refugee populations.
+- the development and application of statistical methods to support refugee populations.
+
 I am also interested in generating empirical evidence about how policymakers and practitioners make decisions and in designing tools that better support their decision-making processes. 
 
 To date, I have worked on a range of substantive areas, including 
