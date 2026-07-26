@@ -216,10 +216,10 @@ draft: false
 <div class="teaching-value">Descriptive & inferential statistics, regression modeling, and categorical & longitudinal data analysis </div>
 
 <div class="teaching-label">Research Methods</div>
-<div class="teaching-value">Design of experimental & observational studies, causal inference, bias, and confounding.</div>
+<div class="teaching-value">Design of experimental & observational studies, causal inference, bias, and confounding </div>
 
 <div class="teaching-label">Statistical Computing</div>
-<div class="teaching-value">Applied data analysis using R statistical software.</div>
+<div class="teaching-value">Applied data analysis using R statistical software </div>
 
 </div>
 </div>
