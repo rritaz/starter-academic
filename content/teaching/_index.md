@@ -21,13 +21,14 @@ draft: false
   background-color: #f4f8f8;
   border-left: 5px solid #58ad9b;
   border-radius: 8px;
-  padding: 28px 36px;
-  margin: 10px auto 42px;
+  padding: 24px 36px;   /* was 28px 36px */
+  margin: 10px 0 42px;
   width: 100%;
-  max-width: 1200px;
+  max-width: 100%;
   box-sizing: border-box;
   display: flex;
   align-items: flex-start;
+  overflow: visible;
 }
 
 .teaching-areas-box > div:last-child {
