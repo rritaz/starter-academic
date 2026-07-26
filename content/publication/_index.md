@@ -15,52 +15,77 @@ header:
 
 <style>
 
-/* Align the entire Publications page with the top navigation */
-.universal-wrapper,
-.article-container,
-.page-body {
-  width: calc(100% - 60px) !important;
-  max-width: 1540px !important;
+/*
+Align the complete Publications page with the navigation bar.
+The navigation content is approximately 1500px wide.
+*/
+.universal-wrapper {
+  width: 100% !important;
+  max-width: 1500px !important;
   margin-left: auto !important;
   margin-right: auto !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 
-/* Keep publication content inside the same width */
+/*
+Reset the publication list rules from the previous code.
+This prevents publications from overlapping the filters.
+*/
 #container-publications {
-  width: 100% !important;
-  max-width: none !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
   position: static !important;
   left: auto !important;
+  right: auto !important;
   transform: none !important;
-  box-sizing: border-box;
-}
-
-#container-publications .pub-list-item {
   width: 100% !important;
-  max-width: none !important;
-  box-sizing: border-box;
+  max-width: 100% !important;
+  margin: 40px 0 0 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  clear: both !important;
 }
 
-/* Medium screens */
+/* Each publication uses the full aligned width */
+#container-publications .pub-list-item {
+  position: static !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Keep the search and filter row above the publications */
+.pub-filters {
+  position: static !important;
+  width: 100% !important;
+  margin-bottom: 35px !important;
+  clear: both !important;
+}
+
+/* Tablet */
+@media screen and (max-width: 1540px) {
+  .universal-wrapper {
+    width: calc(100% - 60px) !important;
+  }
+}
+
+/* Smaller screens */
 @media screen and (max-width: 1000px) {
-  .universal-wrapper,
-  .article-container,
-  .page-body {
+  .universal-wrapper {
     width: calc(100% - 40px) !important;
   }
 }
 
-/* Mobile screens */
+/* Mobile */
 @media screen and (max-width: 768px) {
-  .universal-wrapper,
-  .article-container,
-  .page-body {
+  .universal-wrapper {
     width: calc(100% - 30px) !important;
+  }
+
+  #container-publications {
+    margin-top: 30px !important;
   }
 }
 
