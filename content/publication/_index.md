@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Publications"
 
 # View.
 #   1 = List
@@ -17,7 +17,6 @@ header:
 
 /*
 Align only the main Publications page with the navigation.
-This does not change the navigation bar itself.
 */
 main .container,
 main .universal-wrapper {
@@ -28,17 +27,20 @@ main .universal-wrapper {
   box-sizing: border-box !important;
 }
 
-/* Publications title: matches the Contact page title */
-.publications-page-heading {
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 1.3;
-  color: #2f4858;
-  margin: 0 0 20px;
+/*
+Style the existing Publications title to match the Contact title.
+*/
+main h1 {
+  font-size: 30px !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  color: #2f4858 !important;
+  margin-top: 0 !important;
+  margin-bottom: 20px !important;
 }
 
 /*
-Keep the search and filter controls properly separated
+Keep the search and filter controls separated
 from the publication entries.
 */
 main .form-row {
@@ -60,9 +62,9 @@ main .form-row {
     width: calc(100% - 30px) !important;
   }
 
-  .publications-page-heading {
-    font-size: 27px;
-    margin-bottom: 18px;
+  main h1 {
+    font-size: 27px !important;
+    margin-bottom: 18px !important;
   }
 
   main .form-row {
@@ -71,5 +73,3 @@ main .form-row {
 }
 
 </style>
-
-<div class="publications-page-heading">Publications</div>
