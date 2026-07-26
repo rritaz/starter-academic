@@ -28,23 +28,7 @@ draft: false
   font-size: 30px;
   font-weight: 600;
   color: #2f4858;
-  margin: 0 0 12px;
-}
-
-.contact-heading-line {
-  width: 100%;
-  height: 1px;
-  background-color: #d8e4e3;
-  margin-bottom: 26px;
-}
-
-/* Introductory text */
-.contact-intro {
-  max-width: 760px;
-  font-size: 17px;
-  line-height: 1.7;
-  margin: 0 0 28px;
-  color: #4d5b63;
+  margin: 0 0 20px;
 }
 
 /* Two-column card layout */
@@ -149,11 +133,7 @@ draft: false
 
   .contact-page-heading {
     font-size: 27px;
-  }
-
-  .contact-intro {
-    font-size: 16px;
-    margin-bottom: 22px;
+    margin-bottom: 18px;
   }
 
   .contact-grid {
@@ -180,31 +160,36 @@ draft: false
 <div class="contact-section">
 
 <div class="contact-page-heading">Contact</div>
-<div class="contact-heading-line"></div>
-
 
 <div class="contact-grid">
 
 <div class="contact-card">
+
 <div class="contact-icon">
 <i class="fas fa-envelope"></i>
 </div>
 
 <div class="contact-card-content">
+
 <div class="contact-card-title">Email</div>
+
 <div class="contact-name">Rrita Zejnullahi</div>
+
 <p class="contact-email">
 <a href="mailto:rritaz@uic.edu">rritaz@uic.edu</a>
 </p>
+
 </div>
 </div>
 
 <div class="contact-card">
+
 <div class="contact-icon">
 <i class="fas fa-map-marker-alt"></i>
 </div>
 
 <div class="contact-card-content">
+
 <div class="contact-card-title">University Address</div>
 
 <address class="contact-address">
