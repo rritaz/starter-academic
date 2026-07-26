@@ -6,12 +6,12 @@ draft: false
 
 <style>
 
-/* Widen the main content area on this page */
+/* Make the Teaching page narrower */
 .article-container,
 .universal-wrapper,
 .page-body {
   width: calc(100% - 60px) !important;
-  max-width: 1400px !important;
+  max-width: 1280px !important;
   margin-left: auto !important;
   margin-right: auto !important;
   box-sizing: border-box;
@@ -21,7 +21,7 @@ draft: false
   background-color: #f4f8f8;
   border-left: 5px solid #58ad9b;
   border-radius: 8px;
-  padding: 24px 36px;   /* was 28px 36px */
+  padding: 24px 36px;
   margin: 10px 0 42px;
   width: 100%;
   max-width: 100%;
@@ -178,12 +178,12 @@ draft: false
     grid-template-columns: 1fr;
   }
 
-.teaching-areas-box {
-  width: 100%;
-  max-width: 100%;
-  margin: 10px auto 42px;
-  padding: 20px;
-}
+  .teaching-areas-box {
+    width: 100%;
+    max-width: 100%;
+    margin: 10px 0 42px;
+    padding: 20px;
+  }
 
   .teaching-areas-icon {
     font-size: 26px;
@@ -207,6 +207,7 @@ draft: false
     margin-bottom: 4px;
   }
 }
+
 </style>
 
 <div class="teaching-areas-box">
@@ -216,13 +217,13 @@ draft: false
 <div class="teaching-grid">
 
 <div class="teaching-label">Biostatistics</div>
-<div class="teaching-value">Descriptive & inferential statistics, regression modeling, and categorical & longitudinal data analysis </div>
+<div class="teaching-value">Descriptive &amp; inferential statistics, regression modeling, and categorical &amp; longitudinal data analysis</div>
 
 <div class="teaching-label">Research Methods</div>
-<div class="teaching-value">Design of experimental & observational studies, causal inference, bias, and confounding </div>
+<div class="teaching-value">Design of experimental &amp; observational studies, causal inference, bias, and confounding</div>
 
 <div class="teaching-label">Statistical Computing</div>
-<div class="teaching-value">Applied data analysis using R statistical software </div>
+<div class="teaching-value">Applied data analysis using R statistical software</div>
 
 </div>
 </div>
@@ -235,6 +236,7 @@ draft: false
 <div class="college-heading">School of Public Health</div>
 
 <div class="course-grid">
+
 <div class="course-card">
 <div class="course-code">BSTT 535</div>
 <div class="course-title">Categorical Data Analysis</div>
@@ -262,15 +264,18 @@ draft: false
 <div class="course-semester">Fall 2023 and Fall 2024 | Graduate level</div>
 <p class="course-description">Introduces students to the analytic and research methods used to carry out the core functions of evidence-based public health.</p>
 </div>
+
 </div>
 
 <div class="college-heading">College of Applied Health Sciences</div>
 
 <div class="course-grid-single">
+
 <div class="course-card">
 <div class="course-code">AHS 511–512</div>
 <div class="course-title">Biostatistics I &amp; II</div>
 <div class="course-semester">Fall 2023–2025; Spring 2024–2026 | Graduate level</div>
 <p class="course-description">Two-course sequence covering biostatistical reasoning and applied data analysis. Topics include descriptive statistics, probability, statistical inference, ANOVA and ANCOVA, linear and logistic regression, clinical trial design, nonparametric and categorical methods, factor and cluster analysis, and longitudinal and repeated-measures approaches.</p>
 </div>
+
 </div>
