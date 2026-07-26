@@ -23,7 +23,7 @@ draft: false
   border-radius: 8px;
   padding: 28px 36px;
   margin: 10px auto 42px;
-  width: 88%;
+  width: 90%;
   max-width: 1200px;
   box-sizing: border-box;
   display: flex;
