@@ -10,23 +10,11 @@ subtitle = ""
 [design]
 columns = "2"
 
-[design.background]
-color = ""
-gradient_start = ""
-gradient_end = ""
-image = ""
-image_darken = 0
-image_size = "cover"
-image_position = "center"
-image_parallax = false
-
 [design.spacing]
-padding = ["50px", "0", "50px", "0"]
+padding = ["40px", "0", "40px", "0"]
 
 [advanced]
-css_style = ""
 css_class = "research-areas-section"
-+++
 
 [[feature]]
 icon = "chart-line"
@@ -38,7 +26,7 @@ description = "Effect sizes, robust variance estimation, and statistical inferen
 icon = "balance-scale"
 icon_pack = "fas"
 name = "Causal Inference"
-description = "Randomized and quasi-experimental designs, covariate adjusted effect sizes, and analysis of observational data."
+description = "Randomized and quasi-experimental designs, covariate-adjusted effect sizes, and analysis of observational data."
 
 [[feature]]
 icon = "chart-area"
@@ -49,5 +37,6 @@ description = "Analysis of repeated-measures and longitudinal data using mixed-e
 [[feature]]
 icon = "users"
 icon_pack = "fas"
-name = "Humann Rights Statistics"
+name = "Human Rights Statistics"
 description = "Statistical methods supporting refugee populations."
++++
