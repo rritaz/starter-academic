@@ -37,10 +37,10 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/rrita-zejnullahi-79307b21b/
-- icon: file-pdf
-  icon_pack: fas
+- icon: cv
+  icon_pack: ai
   link: /files/cv.pdf
-  label: Download CV
+  
 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
