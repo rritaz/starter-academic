@@ -79,7 +79,7 @@ main .universal-wrapper {
 
 .courses-heading {
   margin-top: 42px;
-  margin-bottom: 28px;
+  margin-bottom: 14px;
   padding-bottom: 12px;
   border-bottom: 1px solid #d8e4e3;
 }
@@ -87,7 +87,7 @@ main .universal-wrapper {
 .university-heading {
   font-size: 24px;
   font-weight: 600;
-  margin-top: 34px;
+  margin-top: 0;
   margin-bottom: 6px;
 }
 
