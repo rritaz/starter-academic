@@ -18,8 +18,9 @@ draft: false
 }
 
 .contact-section {
-  max-width: 900px;
-  margin: 20px auto 60px;
+  width: 1000px;
+  max-width: 100%;
+  margin: 20px 0 60px;
 }
 
 .contact-heading {
