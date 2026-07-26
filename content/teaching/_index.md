@@ -11,8 +11,8 @@ draft: false
 .article-container,
 .universal-wrapper,
 .page-body {
-  max-width: var(--article-container-width) !important;
-  width: 100% !important;
+  width: calc(100% - 60px) !important;
+  max-width: 904px !important;
   margin-left: auto !important;
   margin-right: auto !important;
   box-sizing: border-box;
