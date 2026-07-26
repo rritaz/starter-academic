@@ -5,19 +5,17 @@ draft: false
 ---
 
 <style>
-/* Introductory paragraph */
 .teaching-intro {
   margin-bottom: 28px;
   line-height: 1.7;
 }
 
-/* Teaching Areas box */
 .teaching-areas-box {
   background-color: #f4f8f8;
   border-left: 5px solid #58ad9b;
   border-radius: 8px;
   padding: 22px 26px;
-  margin: 28px 0 42px 0;
+  margin: 28px 0 42px;
   display: flex;
   align-items: flex-start;
 }
@@ -41,7 +39,6 @@ draft: false
   line-height: 1.8;
 }
 
-/* Main headings */
 .courses-heading {
   margin-top: 42px;
   margin-bottom: 28px;
@@ -55,14 +52,13 @@ draft: false
 }
 
 .college-heading {
+  color: #2f4858;
   font-size: 21px;
   font-weight: 600;
-  color: #2f4858;
   margin-top: 36px;
   margin-bottom: 18px;
 }
 
-/* Horizontal card grid */
 .course-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -70,7 +66,13 @@ draft: false
   margin-bottom: 42px;
 }
 
-/* Individual course card */
+.course-grid-single {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 22px;
+  margin-bottom: 42px;
+}
+
 .course-card {
   background-color: #ffffff;
   border: 1px solid #e1e7ea;
@@ -91,7 +93,6 @@ draft: false
   font-size: 15px;
   font-weight: 700;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   margin-bottom: 5px;
 }
 
@@ -115,15 +116,6 @@ draft: false
   margin: 0;
 }
 
-/* One-card college section */
-.course-grid-single {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 22px;
-  margin-bottom: 42px;
-}
-
-/* Stack cards on smaller screens */
 @media screen and (max-width: 768px) {
   .course-grid {
     grid-template-columns: 1fr;
@@ -141,151 +133,60 @@ draft: false
 </style>
 
 <div class="teaching-intro">
-  I teach graduate-level biostatistics and research methods in public health and the health sciences. My courses emphasize connecting research questions to appropriate study designs and statistical methods, identifying potential sources of bias and confounding, conducting analyses using statistical software, and interpreting and communicating results in applied settings.
+I teach graduate-level biostatistics and research methods in public health and the health sciences. My courses emphasize connecting research questions to appropriate study designs and statistical methods, identifying potential sources of bias and confounding, conducting analyses using statistical software, and interpreting and communicating results in applied settings.
 </div>
 
 <div class="teaching-areas-box">
-
-  <div class="teaching-areas-icon">
-    <i class="fas fa-graduation-cap"></i>
-  </div>
-
-  <div>
-    <div class="teaching-areas-title">
-      Teaching Areas
-    </div>
-
-    <div class="teaching-areas-text">
-      Biostatistics &bull; Research Methods &bull; Study Design &bull;
-      Epidemiologic Methods &bull; Categorical Data Analysis &bull;
-      Regression Modeling &bull; Experimental Design &bull;
-      Longitudinal Data Analysis &bull; Applied Statistical Computing
-    </div>
-  </div>
-
+<div class="teaching-areas-icon"><i class="fas fa-graduation-cap"></i></div>
+<div>
+<div class="teaching-areas-title">Teaching Areas</div>
+<div class="teaching-areas-text">Biostatistics &bull; Research Methods &bull; Study Design &bull; Epidemiologic Methods &bull; Categorical Data Analysis &bull; Regression Modeling &bull; Experimental Design &bull; Longitudinal Data Analysis &bull; Applied Statistical Computing</div>
+</div>
 </div>
 
 <h3 class="courses-heading">Courses</h3>
 
-<div class="university-heading">
-  University of Illinois Chicago
-</div>
+<div class="university-heading">University of Illinois Chicago</div>
 
-<div class="college-heading">
-  School of Public Health
-</div>
+<div class="college-heading">School of Public Health</div>
 
 <div class="course-grid">
-
-  <div class="course-card">
-    <div class="course-code">
-      BSTT 535
-    </div>
-
-    <div class="course-title">
-      Categorical Data Analysis
-    </div>
-
-    <div class="course-semester">
-      Spring 2026 &nbsp;|&nbsp; Graduate level
-    </div>
-
-    <p class="course-description">
-      Covers contingency tables, measures of association, stratified analysis,
-      logistic regression, generalized linear models, Poisson regression,
-      log-linear models, matched data, marginal homogeneity, and methods for
-      ordinal outcomes.
-    </p>
-  </div>
-
-  <div class="course-card">
-    <div class="course-code">
-      IPHS 454–455
-    </div>
-
-    <div class="course-title">
-      Quantitative Methods and Analysis I &amp; II
-    </div>
-
-    <div class="course-semester">
-      Fall 2025–Spring 2026 &nbsp;|&nbsp; Graduate level
-    </div>
-
-    <p class="course-description">
-      Two-course sequence providing a foundation in quantitative and research
-      methods for evidence-based public health, with emphasis on study design,
-      statistical reasoning, data analysis, and interpretation of findings.
-    </p>
-  </div>
-
-  <div class="course-card">
-    <div class="course-code">
-      IPHS 405
-    </div>
-
-    <div class="course-title">
-      Analytic and Research Methods in Public Health, Part II
-    </div>
-
-    <div class="course-semester">
-      Spring 2025 &nbsp;|&nbsp; Graduate level
-    </div>
-
-    <p class="course-description">
-      Second course in a graduate-level sequence emphasizing the selection of
-      appropriate statistical methods, interpretation of findings, and
-      communication of public health research results.
-    </p>
-  </div>
-
-  <div class="course-card">
-    <div class="course-code">
-      IPHS 402
-    </div>
-
-    <div class="course-title">
-      Analytic and Research Methods in Public Health
-    </div>
-
-    <div class="course-semester">
-      Fall 2023 and Fall 2024 &nbsp;|&nbsp; Graduate level
-    </div>
-
-    <p class="course-description">
-      Introduces study design, data description, statistical inference, and
-      research methods used to carry out the core functions of evidence-based
-      public health.
-    </p>
-  </div>
-
+<div class="course-card">
+<div class="course-code">BSTT 535</div>
+<div class="course-title">Categorical Data Analysis</div>
+<div class="course-semester">Spring 2026 | Graduate level</div>
+<p class="course-description">Covers contingency tables, measures of association, stratified analysis, logistic regression, generalized linear models, Poisson regression, log-linear models, matched data, marginal homogeneity, and methods for ordinal outcomes.</p>
 </div>
 
-<div class="college-heading">
-  College of Applied Health Sciences
+<div class="course-card">
+<div class="course-code">IPHS 454–455</div>
+<div class="course-title">Quantitative Methods and Analysis I &amp; II</div>
+<div class="course-semester">Fall 2025–Spring 2026 | Graduate level</div>
+<p class="course-description">Two-course sequence providing a foundation in quantitative and research methods for evidence-based public health, with emphasis on study design, statistical reasoning, data analysis, and interpretation of findings.</p>
 </div>
+
+<div class="course-card">
+<div class="course-code">IPHS 405</div>
+<div class="course-title">Analytic and Research Methods in Public Health, Part II</div>
+<div class="course-semester">Spring 2025 | Graduate level</div>
+<p class="course-description">Second course in a graduate-level sequence emphasizing the selection of appropriate statistical methods, interpretation of findings, and communication of public health research results.</p>
+</div>
+
+<div class="course-card">
+<div class="course-code">IPHS 402</div>
+<div class="course-title">Analytic and Research Methods in Public Health</div>
+<div class="course-semester">Fall 2023 and Fall 2024 | Graduate level</div>
+<p class="course-description">Introduces study design, data description, statistical inference, and research methods used to carry out the core functions of evidence-based public health.</p>
+</div>
+</div>
+
+<div class="college-heading">College of Applied Health Sciences</div>
 
 <div class="course-grid-single">
-
-  <div class="course-card">
-    <div class="course-code">
-      AHS 511–512
-    </div>
-
-    <div class="course-title">
-      Biostatistics I &amp; II
-    </div>
-
-    <div class="course-semester">
-      Fall 2023–2025; Spring 2024–2026 &nbsp;|&nbsp; Graduate level
-    </div>
-
-    <p class="course-description">
-      Two-course sequence covering biostatistical reasoning and applied data
-      analysis. Topics include descriptive statistics, probability, statistical
-      inference, ANOVA and ANCOVA, linear and logistic regression, clinical
-      trial design, nonparametric and categorical methods, factor and cluster
-      analysis, and longitudinal and repeated-measures approaches.
-    </p>
-  </div>
-
+<div class="course-card">
+<div class="course-code">AHS 511–512</div>
+<div class="course-title">Biostatistics I &amp; II</div>
+<div class="course-semester">Fall 2023–2025; Spring 2024–2026 | Graduate level</div>
+<p class="course-description">Two-course sequence covering biostatistical reasoning and applied data analysis. Topics include descriptive statistics, probability, statistical inference, ANOVA and ANCOVA, linear and logistic regression, clinical trial design, nonparametric and categorical methods, factor and cluster analysis, and longitudinal and repeated-measures approaches.</p>
+</div>
 </div>
