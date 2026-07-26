@@ -22,13 +22,12 @@ draft: false
   border-left: 5px solid #58ad9b;
   border-radius: 8px;
   padding: 28px 36px;
-  margin: 10px 0 42px;
-  width: 100%;
-  max-width: 100%;
+  margin: 10px auto 42px;
+  width: 88%;
+  max-width: 1200px;
   box-sizing: border-box;
   display: flex;
   align-items: flex-start;
-  overflow: visible;
 }
 
 .teaching-areas-box > div:last-child {
@@ -176,11 +175,12 @@ draft: false
     grid-template-columns: 1fr;
   }
 
-  .teaching-areas-box {
-    width: 100%;
-    margin: 10px 0 42px;
-    padding: 20px;
-  }
+.teaching-areas-box {
+  width: 100%;
+  max-width: 100%;
+  margin: 10px auto 42px;
+  padding: 20px;
+}
 
   .teaching-areas-icon {
     font-size: 26px;
