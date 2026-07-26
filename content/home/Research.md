@@ -32,5 +32,5 @@ description = "Randomized and quasi-experimental designs, covariate-adjusted eff
 icon = "users"
 icpack = "fas"
 name = "Refugee and Human Rights Statistics"
-description = "Statistical methods supporting refugee populations"
+description = "Statistical methods and data challenges related to refugee populations"
 +++
