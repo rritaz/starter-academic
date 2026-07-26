@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: ""
 
 # View.
 #   1 = List
@@ -28,6 +28,15 @@ main .universal-wrapper {
   box-sizing: border-box !important;
 }
 
+/* Publications title: matches the Contact page title */
+.publications-page-heading {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #2f4858;
+  margin: 0 0 20px;
+}
+
 /*
 Keep the search and filter controls properly separated
 from the publication entries.
@@ -51,9 +60,16 @@ main .form-row {
     width: calc(100% - 30px) !important;
   }
 
+  .publications-page-heading {
+    font-size: 27px;
+    margin-bottom: 18px;
+  }
+
   main .form-row {
     margin-bottom: 30px !important;
   }
 }
 
 </style>
+
+<div class="publications-page-heading">Publications</div>
