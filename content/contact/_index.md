@@ -182,9 +182,6 @@ draft: false
 <div class="contact-page-heading">Contact</div>
 <div class="contact-heading-line"></div>
 
-<p class="contact-intro">
-I welcome inquiries regarding research collaborations, statistical methodology, and applied biostatistical research.
-</p>
 
 <div class="contact-grid">
 
