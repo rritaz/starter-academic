@@ -54,7 +54,7 @@ user_groups:
 ---
 I am a Clinical Assistant Professor of Biostatistics at the University of Illinois Chicago, with appointments in the [School of Public Health, Division of Epidemiology and Biostatistics](https://publichealth.uic.edu/) (primary), and the [College of Applied Health Sciences](https://ahs.uic.edu/) (joint), and a Statistician in the Office of Research, College of Applied Health Sciences.
 
-My research focuses on the development and application of statistical methods and tools to support evidence-based policy and decision-making. This include
+My research focuses on the development and application of statistical methods and tools to support evidence-based policy and decision-making. This includes
 - extensions of meta-analysis methods to small sample situations,
 - the formulation of effect sizes and effect-size estimators for randomized and quasi-experiments when adjusting for covariates, and
 - the development and application of statistical methods to support refugee populations.
