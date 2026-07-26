@@ -5,8 +5,6 @@ draft: false
 ---
 
 <style>
-
-/* Match the wider content area used on the Teaching page */
 .article-container,
 .universal-wrapper,
 .page-body {
@@ -26,42 +24,49 @@ draft: false
 .contact-heading {
   font-size: 34px;
   font-weight: 600;
-  margin-bottom: 28px;
+  margin: 0 0 28px 0 !important;
 }
 
 .contact-card {
+  width: 100%;
   background-color: #f4f8f8;
   border-left: 5px solid #58ad9b;
   border-radius: 8px;
-  padding: 34px 38px;
+  padding: 30px 38px;
   box-sizing: border-box;
-  display: flex;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 30px minmax(0, 1fr);
+  column-gap: 22px;
+  align-items: start;
 }
 
 .contact-icon {
   color: #58ad9b;
   font-size: 30px;
   line-height: 1;
-  margin-right: 22px;
-  margin-top: 2px;
-  flex-shrink: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .contact-content {
-  flex: 1;
   min-width: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .contact-name {
   color: #2f4858;
   font-size: 23px;
   font-weight: 600;
-  margin: 0 0 6px 0;
+  line-height: 1.2;
+  margin: 0 0 4px 0 !important;
+  padding: 0 !important;
 }
 
 .contact-email {
-  margin: 0 0 12px 0;
+  line-height: 1.4;
+  margin: 0 0 10px 0 !important;
+  padding: 0 !important;
 }
 
 .contact-email a {
@@ -78,12 +83,19 @@ draft: false
 .contact-divider {
   border: 0;
   border-top: 1px solid #d8e4e3;
-  margin: 12px 0;
+  margin: 10px 0 !important;
+  padding: 0 !important;
 }
 
 .contact-address {
-  margin: 0;
-  line-height: 1.7;
+  line-height: 1.65;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.contact-card p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 @media screen and (max-width: 1000px) {
@@ -102,20 +114,23 @@ draft: false
   }
 
   .contact-section {
-    margin-top: 10px;
+    width: 100%;
+    margin: 10px 0 50px;
   }
 
   .contact-heading {
     font-size: 30px;
+    margin-bottom: 22px !important;
   }
 
   .contact-card {
-    padding: 25px 22px;
+    padding: 24px 22px;
+    grid-template-columns: 26px minmax(0, 1fr);
+    column-gap: 16px;
   }
 
   .contact-icon {
     font-size: 26px;
-    margin-right: 16px;
   }
 
   .contact-name {
@@ -125,33 +140,14 @@ draft: false
 </style>
 
 <div class="contact-section">
-
 <div class="contact-heading">Contact</div>
-
 <div class="contact-card">
-
-<div class="contact-icon">
-<i class="fas fa-envelope"></i>
-</div>
-
+<div class="contact-icon"><i class="fas fa-envelope"></i></div>
 <div class="contact-content">
-
 <div class="contact-name">Rrita Zejnullahi</div>
-
-<div class="contact-email">
-<a href="mailto:rritaz@uic.edu">rritaz@uic.edu</a>
-</div>
-
+<div class="contact-email"><a href="mailto:rritaz@uic.edu">rritaz@uic.edu</a></div>
 <hr class="contact-divider">
-
-<p class="contact-address">
-University of Illinois Chicago<br>
-School of Public Health<br>
-Division of Epidemiology and Biostatistics<br>
-1603 W. Taylor Street<br>
-Chicago, IL 60612
-</p>
-
+<p class="contact-address">University of Illinois Chicago<br>School of Public Health<br>Division of Epidemiology and Biostatistics<br>1603 W. Taylor Street<br>Chicago, IL 60612</p>
 </div>
 </div>
 </div>
