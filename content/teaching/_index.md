@@ -6,12 +6,12 @@ draft: false
 
 <style>
 
-/* Make the Teaching page narrower */
+/* Make the Teaching page about 0.5 cm narrower on each side */
 .article-container,
 .universal-wrapper,
 .page-body {
   width: calc(100% - 60px) !important;
-  max-width: 1280px !important;
+  max-width: 1242px !important;
   margin-left: auto !important;
   margin-right: auto !important;
   box-sizing: border-box;
