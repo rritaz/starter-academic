@@ -1,10 +1,28 @@
-I teach graduate-level biostatistics and research methods in public health and the health sciences. My courses emphasize connecting research questions to appropriate study designs and statistical methods, recognizing potential sources of bias and confounding, conducting analyses using statistical software, and interpreting and communicating results in applied settings.
+<div style="
+background:#f8fafc;
+border-left:5px solid #58ad9b;
+border-radius:8px;
+padding:20px 24px;
+margin:30px 0;
+display:flex;
+align-items:flex-start;
+gap:18px;
+">
+
+<div style="font-size:32px;color:#58ad9b;">
+<i class="fas fa-graduation-cap"></i>
+</div>
+
+<div>
 
 ### Teaching Areas
 
-- **Biostatistics:** Descriptive and inferential statistics, categorical data analysis, regression modeling, longitudinal data analysis
-- **Research Methods:** Study design, experimental design, epidemiologic methods, bias and confounding
-- **Statistical Computing:** Applied data analysis using statistical software
+Biostatistics • Research Methods • Study Design • Epidemiologic Methods • Categorical Data Analysis • Regression Modeling • Experimental Design • Longitudinal Data Analysis • Applied Statistical Computing
+
+</div>
+
+</div>
+
 
 ### Courses
 
