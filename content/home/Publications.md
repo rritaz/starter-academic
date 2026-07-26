@@ -23,7 +23,7 @@ folders = ["publication"]
 featured_only = false
 
 [design]
-view = 3
+view = 2
 columns = "2"
 
 [design.spacing]
