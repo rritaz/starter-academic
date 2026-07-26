@@ -187,13 +187,13 @@ draft: false
 <div class="teaching-grid">
 
 <div class="teaching-label">Biostatistics</div>
-<div class="teaching-value">Descriptive and inferential statistics, regression modeling, and categorical and longitudinal data analysis.</div>
+<div class="teaching-value">Descriptive & inferential statistics, regression modeling, and categorical & longitudinal data analysis </div>
 
 <div class="teaching-label">Research Methods</div>
-<div class="teaching-value">Design of experimental and observational studies, causal inference, bias, and confounding.</div>
+<div class="teaching-value">Design of experimental and observational studies, causal inference, bias, and confounding </div>
 
 <div class="teaching-label">Statistical Computing</div>
-<div class="teaching-value">Applied data analysis using R statistical software.</div>
+<div class="teaching-value">Applied data analysis using R statistical software </div>
 
 </div>
 </div>
@@ -231,7 +231,9 @@ draft: false
 <div class="course-code">IPHS 402</div>
 <div class="course-title">Analytic and Research Methods in Public Health</div>
 <div class="course-semester">Fall 2023 and Fall 2024 | Graduate level</div>
-<p class="course-description">Introduces study design, data description, statistical inference, and research methods used to carry out the core functions of evidence-based public health.</p>
+<p class="course-description"> Introduces students to the analytic and research methods used to carry out the core functions of evidence-based public health.
+
+</p>
 </div>
 </div>
 
