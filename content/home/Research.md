@@ -29,8 +29,8 @@ name = "Causal Inference"
 description = "Randomized and quasi-experimental designs, covariate-adjusted effect sizes, and analysis of observational data"
 
 [[feature]]
-icon = "hands-helping"
+icon = "users"
 icpack = "fas"
-name = "Human Rights Statistics"
+name = "Refugee and Human Rights Statistics"
 description = "Statistical methods supporting refugee populations"
 +++
