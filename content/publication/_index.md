@@ -16,8 +16,8 @@ header:
 <style>
 
 /* Align the Publications page content */
-main .container,
-main .universal-wrapper {
+.container,
+.universal-wrapper {
   width: calc(100% - 60px) !important;
   max-width: 1500px !important;
   margin-left: auto !important;
@@ -26,69 +26,60 @@ main .universal-wrapper {
 }
 
 /*
-Make the existing Wowchemy Publications title
-match the Contact title.
+Style the title generated automatically by Wowchemy.
+This matches the custom Contact title.
 */
-main .universal-wrapper > h1,
-main .article-header h1,
-main .page-header h1,
-main h1.article-title {
+.universal-wrapper.pt-3 h1,
+.universal-wrapper > h1,
+h1.page-title,
+h1.article-title {
   font-size: 30px !important;
   font-weight: 600 !important;
   line-height: 1.3 !important;
   color: #2f4858 !important;
-  margin-top: 0 !important;
-  margin-bottom: 20px !important;
+  margin: 0 0 20px 0 !important;
   padding: 0 !important;
   letter-spacing: normal !important;
   text-transform: none !important;
 }
 
-/* Remove extra spacing around the title container */
-main .universal-wrapper.pt-3,
-main .universal-wrapper.pb-3,
-main .article-header,
-main .page-header {
+/* Remove Wowchemy's extra space around the title */
+.universal-wrapper.pt-3 {
   padding-top: 10px !important;
   padding-bottom: 0 !important;
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
 
-/* Remove any accidental custom duplicate title */
-.publications-page-heading {
-  display: none !important;
-}
-
-/* Space below the search and filter controls */
-main .form-row {
+/* Separate filters from publication entries */
+.form-row {
   margin-bottom: 38px !important;
 }
 
 /* Medium screens */
 @media screen and (max-width: 1000px) {
-  main .container,
-  main .universal-wrapper {
+  .container,
+  .universal-wrapper {
     width: calc(100% - 40px) !important;
   }
 }
 
 /* Mobile screens */
 @media screen and (max-width: 768px) {
-  main .container,
-  main .universal-wrapper {
+  .container,
+  .universal-wrapper {
     width: calc(100% - 30px) !important;
   }
 
-  main .universal-wrapper > h1,
-  main .article-header h1,
-  main .page-header h1,
-  main h1.article-title {
+  .universal-wrapper.pt-3 h1,
+  .universal-wrapper > h1,
+  h1.page-title,
+  h1.article-title {
     font-size: 27px !important;
     margin-bottom: 18px !important;
   }
 
-  main .form-row {
+  .form-row {
     margin-bottom: 30px !important;
   }
 }
