@@ -5,17 +5,12 @@ draft: false
 ---
 
 <style>
-.teaching-intro {
-  margin-bottom: 28px;
-  line-height: 1.7;
-}
-
 .teaching-areas-box {
   background-color: #f4f8f8;
   border-left: 5px solid #58ad9b;
   border-radius: 8px;
   padding: 22px 26px;
-  margin: 28px 0 42px;
+  margin: 10px 0 42px;
   display: flex;
   align-items: flex-start;
 }
@@ -32,11 +27,24 @@ draft: false
 .teaching-areas-title {
   font-size: 21px;
   font-weight: 600;
-  margin-bottom: 9px;
+  margin-bottom: 10px;
 }
 
 .teaching-areas-text {
-  line-height: 1.8;
+  line-height: 1.7;
+}
+
+.teaching-areas-text ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.teaching-areas-text li {
+  margin-bottom: 10px;
+}
+
+.teaching-areas-text li:last-child {
+  margin-bottom: 0;
 }
 
 .courses-heading {
@@ -48,14 +56,14 @@ draft: false
   font-size: 24px;
   font-weight: 600;
   margin-top: 34px;
-  margin-bottom: 28px;
+  margin-bottom: 6px;
 }
 
 .college-heading {
   color: #2f4858;
   font-size: 21px;
   font-weight: 600;
-  margin-top: 36px;
+  margin-top: 8px;
   margin-bottom: 18px;
 }
 
@@ -132,15 +140,17 @@ draft: false
 }
 </style>
 
-<div class="teaching-intro">
-I teach graduate-level biostatistics and research methods in public health and the health sciences. My courses emphasize connecting research questions to appropriate study designs and statistical methods, identifying potential sources of bias and confounding, conducting analyses using statistical software, and interpreting and communicating results in applied settings.
-</div>
-
 <div class="teaching-areas-box">
 <div class="teaching-areas-icon"><i class="fas fa-graduation-cap"></i></div>
 <div>
 <div class="teaching-areas-title">Teaching Areas</div>
-<div class="teaching-areas-text">Biostatistics &bull; Research Methods &bull; Study Design &bull; Epidemiologic Methods &bull; Categorical Data Analysis &bull; Regression Modeling &bull; Experimental Design &bull; Longitudinal Data Analysis &bull; Applied Statistical Computing</div>
+<div class="teaching-areas-text">
+<ul>
+<li><strong>Biostatistics:</strong> Descriptive and inferential statistics, categorical data analysis, regression modeling, and longitudinal data analysis.</li>
+<li><strong>Research Methods:</strong> Study design, experimental design, epidemiologic methods, bias and confounding.</li>
+<li><strong>Statistical Computing:</strong> Applied data analysis using statistical software.</li>
+</ul>
+</div>
 </div>
 </div>
 
