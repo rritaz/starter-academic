@@ -140,7 +140,7 @@ main .universal-wrapper {
 </style>
 
 <div class="contact-section">
-<div class="contact-heading">Contact</div>
+<div class="contact-heading"></div>
 <div class="contact-card">
 <div class="contact-icon"><i class="fas fa-envelope"></i></div>
 <div class="contact-content">
