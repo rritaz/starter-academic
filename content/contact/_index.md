@@ -44,7 +44,7 @@ draft: false
   font-size: 30px;
   line-height: 1;
   margin-right: 22px;
-  padding-top: 3px;
+  margin-top: 2px;
   flex-shrink: 0;
 }
 
@@ -57,11 +57,11 @@ draft: false
   color: #2f4858;
   font-size: 23px;
   font-weight: 600;
-  margin-bottom: 14px;
+  margin: 0 0 6px 0;
 }
 
 .contact-email {
-  margin-bottom: 24px;
+  margin: 0 0 12px 0;
 }
 
 .contact-email a {
@@ -78,12 +78,12 @@ draft: false
 .contact-divider {
   border: 0;
   border-top: 1px solid #d8e4e3;
-  margin: 0 0 22px;
+  margin: 12px 0;
 }
 
 .contact-address {
-  line-height: 1.75;
   margin: 0;
+  line-height: 1.7;
 }
 
 @media screen and (max-width: 1000px) {
