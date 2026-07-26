@@ -1,16 +1,5 @@
 ---
-title: Publications
-
-/* Match the wider content area used on the Teaching page */
-.article-container,
-.universal-wrapper,
-.page-body {
-  width: calc(100% - 60px) !important;
-  max-width: 1400px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  box-sizing: border-box;
-}
+title: "Publications"
 
 # View.
 #   1 = List
@@ -23,6 +12,35 @@ view: 4
 header:
   caption: ""
   image: ""
-
-  
 ---
+
+<style>
+
+/* Match the wider content area used on the Teaching page */
+.article-container,
+.universal-wrapper,
+.page-body {
+  width: calc(100% - 60px) !important;
+  max-width: 1400px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+  .article-container,
+  .universal-wrapper,
+  .page-body {
+    width: calc(100% - 40px) !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .article-container,
+  .universal-wrapper,
+  .page-body {
+    width: calc(100% - 30px) !important;
+  }
+}
+
+</style>
