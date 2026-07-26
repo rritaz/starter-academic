@@ -10,13 +10,22 @@ draft: false
   border-left: 5px solid #58ad9b;
   border-radius: 8px;
   padding: 28px 36px;
-  margin: 10px auto 42px;
-  width: min(1200px, calc(100vw - 80px));
+  margin-top: 10px;
+  margin-bottom: 42px;
+  width: min(1400px, calc(100vw - 60px));
   box-sizing: border-box;
   display: flex;
   align-items: flex-start;
+
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
+.teaching-areas-box > div:last-child {
+  flex: 1;
+  min-width: 0;
+}
 
 .teaching-areas-icon {
   color: #58ad9b;
@@ -35,10 +44,12 @@ draft: false
 
 .teaching-grid {
   display: grid;
-  grid-template-columns: 180px minmax(0, 1fr);
-  column-gap: 24px;
+  grid-template-columns: 220px minmax(0, 1fr);
+  column-gap: 28px;
   row-gap: 14px;
   align-items: start;
+  width: 100%;
+  min-width: 0;
 }
 
 .teaching-label {
@@ -49,6 +60,8 @@ draft: false
 
 .teaching-value {
   line-height: 1.7;
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 
 .courses-heading {
@@ -135,10 +148,12 @@ draft: false
   }
 
   .teaching-areas-box {
+    width: 100%;
     padding: 20px;
+    position: static;
+    transform: none;
     margin-left: 0;
     margin-right: 0;
-    width: 100%;
   }
 
   .teaching-areas-icon {
@@ -172,13 +187,13 @@ draft: false
 <div class="teaching-grid">
 
 <div class="teaching-label">Biostatistics</div>
-<div class="teaching-value">Descriptive & inferential statistics, regression modeling, and categorical & longitudinal data analysis </div>
+<div class="teaching-value">Descriptive and inferential statistics, regression modeling, and categorical and longitudinal data analysis.</div>
 
 <div class="teaching-label">Research Methods</div>
-<div class="teaching-value"> Design of experimental and observational studies, causal inference, bias and confounding </div>
+<div class="teaching-value">Design of experimental and observational studies, causal inference, bias, and confounding.</div>
 
 <div class="teaching-label">Statistical Computing</div>
-<div class="teaching-value">Applied data analysis using statistical software R </div>
+<div class="teaching-value">Applied data analysis using R statistical software.</div>
 
 </div>
 </div>
