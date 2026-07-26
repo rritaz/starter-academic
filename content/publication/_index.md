@@ -8,7 +8,6 @@ title: "Publications"
 #   4 = Citation
 view: 4
 
-# Optional header image relative to the static/img folder.
 header:
   caption: ""
   image: ""
@@ -16,22 +15,31 @@ header:
 
 <style>
 
-/*
-Keep the Publications heading and search/filter controls
-at the theme's original width.
-
-Only widen the publication entries below the filters.
-*/
-#container-publications {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  width: calc(100vw - 60px) !important;
+/* Align the entire Publications page with the top navigation */
+.universal-wrapper,
+.article-container,
+.page-body {
+  width: calc(100% - 60px) !important;
   max-width: 1540px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   box-sizing: border-box;
 }
 
-/* Make each publication entry use the widened container */
+/* Keep publication content inside the same width */
+#container-publications {
+  width: 100% !important;
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  position: static !important;
+  left: auto !important;
+  transform: none !important;
+  box-sizing: border-box;
+}
+
 #container-publications .pub-list-item {
   width: 100% !important;
   max-width: none !important;
@@ -40,15 +48,19 @@ Only widen the publication entries below the filters.
 
 /* Medium screens */
 @media screen and (max-width: 1000px) {
-  #container-publications {
-    width: calc(100vw - 40px) !important;
+  .universal-wrapper,
+  .article-container,
+  .page-body {
+    width: calc(100% - 40px) !important;
   }
 }
 
 /* Mobile screens */
 @media screen and (max-width: 768px) {
-  #container-publications {
-    width: calc(100vw - 30px) !important;
+  .universal-wrapper,
+  .article-container,
+  .page-body {
+    width: calc(100% - 30px) !important;
   }
 }
 
