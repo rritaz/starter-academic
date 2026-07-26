@@ -17,7 +17,7 @@ padding = ["40px", "0", "40px", "0"]
 css_class = "research-areas-section"
 
 [[feature]]
-icon = "chart-line"
+icon = "book-open"
 icon_pack = "fas"
 name = "Meta-analysis"
 description = "Effect sizes, robust variance estimation, and statistical inference in small-sample settings"
@@ -29,8 +29,8 @@ name = "Causal Inference"
 description = "Randomized and quasi-experimental designs, covariate-adjusted effect sizes, and analysis of observational data"
 
 [[feature]]
-icon = "users"
-icon_pack = "fas"
+icon = "glope"
+icpack = "fas"
 name = "Human Rights Statistics"
 description = "Statistical methods supporting refugee populations"
 +++
