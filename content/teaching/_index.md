@@ -10,8 +10,8 @@ draft: false
   border-left: 5px solid #58ad9b;
   border-radius: 8px;
   padding: 28px 36px;
-  margin: 10px calc(50% - 50vw) 42px;
-  width: 100vw;
+  margin: 10px -70px 42px;
+  width: calc(100% + 140px);
   box-sizing: border-box;
   display: flex;
   align-items: flex-start;
@@ -140,6 +140,9 @@ draft: false
 
   .teaching-areas-box {
     padding: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
   }
 
   .teaching-areas-icon {
