@@ -29,12 +29,6 @@ name = "Causal Inference"
 description = "Randomized and quasi-experimental designs, covariate-adjusted effect sizes, and analysis of observational data."
 
 [[feature]]
-icon = "chart-area"
-icon_pack = "fas"
-name = "Longitudinal Data Analysis"
-description = "Analysis of repeated-measures and longitudinal data using mixed-effects models and related methods."
-
-[[feature]]
 icon = "users"
 icon_pack = "fas"
 name = "Human Rights Statistics"
