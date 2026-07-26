@@ -15,62 +15,44 @@ header:
 
 <style>
 
-/* Match the Publications page width to the top navigation */
-.universal-wrapper {
+/*
+Align only the main Publications page with the navigation.
+This does not change the navigation bar itself.
+*/
+main .container,
+main .universal-wrapper {
   width: calc(100% - 60px) !important;
-  max-width: 1280px !important;
+  max-width: 1500px !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
   box-sizing: border-box !important;
 }
 
-/* Keep the publication list in the normal document flow */
-#container-publications {
-  position: static !important;
-  left: auto !important;
-  right: auto !important;
-  transform: none !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  margin: 35px 0 0 0 !important;
-  padding: 0 !important;
-  clear: both !important;
-  box-sizing: border-box !important;
+/*
+Keep the search and filter controls properly separated
+from the publication entries.
+*/
+main .form-row {
+  margin-bottom: 38px !important;
 }
 
-/* Make each publication follow the same width */
-#container-publications .pub-list-item {
-  width: 100% !important;
-  max-width: 100% !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  box-sizing: border-box !important;
-}
-
-/* Keep filters separated from the publication list */
-.pub-filters {
-  width: 100% !important;
-  margin-bottom: 30px !important;
-  clear: both !important;
-}
-
-/* Tablet */
+/* Medium screens */
 @media screen and (max-width: 1000px) {
-  .universal-wrapper {
+  main .container,
+  main .universal-wrapper {
     width: calc(100% - 40px) !important;
   }
 }
 
-/* Mobile */
+/* Mobile screens */
 @media screen and (max-width: 768px) {
-  .universal-wrapper {
+  main .container,
+  main .universal-wrapper {
     width: calc(100% - 30px) !important;
   }
 
-  #container-publications {
-    margin-top: 25px !important;
+  main .form-row {
+    margin-bottom: 30px !important;
   }
 }
 
