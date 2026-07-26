@@ -10,11 +10,11 @@ draft: false
   border-left: 5px solid #58ad9b;
   border-radius: 8px;
   padding: 28px 36px;
-  margin: 10px 0 42px;
+  margin: 10px -100px 42px;
+  width: calc(100% + 200px);
+  box-sizing: border-box;
   display: flex;
   align-items: flex-start;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .teaching-areas-box > div:last-child {
