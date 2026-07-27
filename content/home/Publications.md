@@ -11,8 +11,7 @@ subtitle = ""
 page_type = "publication"
 count = 4
 offset = 0
-
-sort_by = "Params.homepage_order"
+sort_by = "homepage_order"
 sort_ascending = true
 
 [content.filters]
