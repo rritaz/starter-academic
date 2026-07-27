@@ -3,7 +3,7 @@
 name: Rrita Zejnullahi 
 
 # Username (this should match the folder name)
-authors:
+authors: Rrita Zejnullahi
 - admin
 
 # Is this the primary user of the site?
