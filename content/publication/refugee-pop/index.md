@@ -11,6 +11,6 @@ publication: "*CHANCE*"
 
 tags:
   - selected
-weight: 3
+homepage_order: 3
 ---
 
