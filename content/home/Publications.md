@@ -12,7 +12,7 @@ page_type = "publication"
 count = 4
 offset = 0
 sort_by = "homepage_order"
-sort_ascending = true
+sort_ascending = false
 
 [content.filters]
 folders = ["publication"]
