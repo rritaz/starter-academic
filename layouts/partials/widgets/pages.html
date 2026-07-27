@@ -54,11 +54,37 @@
 
 {{ $count := len $query }}
 
-{{/* Sort */}}
+{{/* Sort selected homepage publications manually */}}
 {{ if and (eq $items_type "publication") (eq ($st.Params.content.filters.tag | default "") "selected") }}
-  {{ $query = sort $query "Params.homepage_order" "asc" }}
+
+  {{ $ordered_publications := slice }}
+
+  {{ $publication_1 := site.GetPage "publication/rva-small-ma-smd" }}
+  {{ if $publication_1 }}
+    {{ $ordered_publications = $ordered_publications | append $publication_1 }}
+  {{ end }}
+
+  {{ $publication_2 := site.GetPage "publication/effect-sizes" }}
+  {{ if $publication_2 }}
+    {{ $ordered_publications = $ordered_publications | append $publication_2 }}
+  {{ end }}
+
+  {{ $publication_3 := site.GetPage "publication/refugee-pop" }}
+  {{ if $publication_3 }}
+    {{ $ordered_publications = $ordered_publications | append $publication_3 }}
+  {{ end }}
+
+  {{ $publication_4 := site.GetPage "publication/suicide-rates" }}
+  {{ if $publication_4 }}
+    {{ $ordered_publications = $ordered_publications | append $publication_4 }}
+  {{ end }}
+
+  {{ $query = $ordered_publications }}
+
 {{ else }}
+
   {{ $query = sort $query "Date" $items_sort }}
+
 {{ end }}
 
 {{/* Offset and Limit */}}
@@ -90,6 +116,7 @@
     {{ if eq $columns "1" }}
 
       <div class="col-12 col-lg-8 section-heading text-center">
+
         {{ with $st.Title }}
           <h1>{{ . }}</h1>
         {{ end }}
@@ -97,11 +124,13 @@
         {{ with $st.Params.subtitle }}
           <p>{{ . | markdownify | emojify }}</p>
         {{ end }}
+
       </div>
 
     {{ else }}
 
       <div class="col-12 col-lg-4 section-heading">
+
         {{ with $st.Title }}
           <h1>{{ . }}</h1>
         {{ end }}
@@ -109,6 +138,7 @@
         {{ with $st.Params.subtitle }}
           <p>{{ . | markdownify | emojify }}</p>
         {{ end }}
+
       </div>
 
     {{ end }}
