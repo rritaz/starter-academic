@@ -12,12 +12,12 @@ page_type = "publication"
 count = 4
 offset = 0
 sort_by = "homepage_order"
-sort_ascending = false
+sort_ascending = true
 
 [content.filters]
 folders = ["publication"]
 tag = "selected"
-featured_only = false
+featured_only = true
 
 [design]
 view = 2
