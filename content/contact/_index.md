@@ -16,24 +16,17 @@ main .universal-wrapper {
   box-sizing: border-box !important;
 }
 
-/* Contact section */
 .contact-section {
-  width: 100%;
-  margin: 30px 0 60px;
+  max-width: 650px;
+  margin: 25px 0 60px;
 }
 
-/* Left-aligned card */
-.contact-card {
+/* Divider */
+.contact-divider {
   width: 100%;
-  max-width: 650px;
-  margin-left: 0;
-  margin-right: auto;
-  padding: 48px 52px;
-  background: #ffffff;
-  border: 1px solid #e6eaec;
-  border-radius: 10px;
-  box-shadow: 0 3px 12px rgba(0,0,0,.05);
-  box-sizing: border-box;
+  height: 1px;
+  background: #e5eaed;
+  margin: 28px 0;
 }
 
 /* University */
@@ -44,18 +37,11 @@ main .universal-wrapper {
   line-height: 1.7;
 }
 
-/* Divider */
-.contact-divider {
-  height: 1px;
-  background: #e6eaec;
-  margin: 28px 0;
-}
-
 /* Contact rows */
 .contact-row {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 28px;
+  margin-bottom: 26px;
 }
 
 .contact-row:last-child {
@@ -67,7 +53,7 @@ main .universal-wrapper {
   width: 26px;
   margin-right: 18px;
   color: #58ad9b;
-  font-size: 21px;
+  font-size: 20px;
   text-align: center;
   flex-shrink: 0;
   padding-top: 3px;
@@ -85,9 +71,9 @@ main .universal-wrapper {
 
 .contact-email a {
   color: #4f9f90;
-  text-decoration: none;
   font-size: 17px;
   font-weight: 500;
+  text-decoration: none;
 }
 
 .contact-email a:hover {
@@ -111,9 +97,8 @@ main .universal-wrapper{
 width:calc(100% - 40px)!important;
 }
 
-.contact-card{
+.contact-section{
 max-width:650px;
-padding:42px;
 }
 
 }
@@ -124,10 +109,6 @@ padding:42px;
 main .container,
 main .universal-wrapper{
 width:calc(100% - 30px)!important;
-}
-
-.contact-card{
-padding:32px 26px;
 }
 
 .contact-affiliation{
@@ -147,7 +128,7 @@ margin:24px 0;
 }
 
 .contact-icon{
-font-size:20px;
+font-size:19px;
 margin-right:15px;
 }
 
@@ -156,8 +137,6 @@ margin-right:15px;
 </style>
 
 <div class="contact-section">
-
-<div class="contact-card">
 
 <p class="contact-affiliation">
 University of Illinois Chicago<br>
@@ -197,8 +176,6 @@ University of Illinois Chicago<br>
 1603 W. Taylor Street, MC 923<br>
 Chicago, IL 60612
 </address>
-
-</div>
 
 </div>
 
