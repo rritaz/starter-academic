@@ -15,7 +15,6 @@ role: Clinical Assistant Professor of Biostatistics
 # Organization
 organizations:
   - name: University of Illinois Chicago
-    url: https://www.uic.edu/
 
 # Social and academic links
 social:
