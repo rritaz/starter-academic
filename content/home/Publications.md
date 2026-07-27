@@ -17,7 +17,7 @@ sort_ascending = true
 [content.filters]
 folders = ["publication"]
 tag = "selected"
-featured_only = true
+featured_only = false
 
 [design]
 view = 2
