@@ -11,13 +11,9 @@ subtitle = ""
 page_type = "publication"
 count = 4
 offset = 0
-sort_by = "homepage_order"
-sort_ascending = true
 
 [content.filters]
-folders = ["publication"]
 tag = "selected"
-featured_only = false
 
 [design]
 view = 2
