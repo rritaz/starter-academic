@@ -12,12 +12,15 @@ superuser: true
 # Role/position
 role: Clinical Assistant Professor of Biostatistics
 
-# Organization
+# Organization and faculty profile
 organizations:
   - name: University of Illinois Chicago
-    url: ""
+    url: https://www.uic.edu/
 
-# Social links
+  - name: UIC Faculty Profile
+    url: https://publichealth.uic.edu/profiles/zejnullahi-rrita/
+
+# Social and academic links
 social:
   - icon: envelope
     icon_pack: fas
