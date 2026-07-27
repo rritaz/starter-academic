@@ -16,32 +16,35 @@ main .universal-wrapper {
   box-sizing: border-box !important;
 }
 
+/* Main contact section */
 .contact-section {
+  width: 100%;
   max-width: 650px;
   margin: 25px 0 60px;
 }
 
-/* Divider */
+/* Page title */
+.contact-title {
+  margin: 0;
+  color: #2f4858;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+/* Line below the title */
 .contact-divider {
   width: 100%;
   height: 1px;
+  margin: 22px 0 30px;
   background: #e5eaed;
-  margin: 28px 0;
-}
-
-/* University */
-.contact-affiliation {
-  margin: 0;
-  color: #2f4858;
-  font-size: 18px;
-  line-height: 1.7;
 }
 
 /* Contact rows */
 .contact-row {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 26px;
+  margin-bottom: 28px;
 }
 
 .contact-row:last-child {
@@ -52,16 +55,18 @@ main .universal-wrapper {
 .contact-icon {
   width: 26px;
   margin-right: 18px;
+  padding-top: 3px;
   color: #58ad9b;
   font-size: 20px;
+  line-height: 1;
   text-align: center;
   flex-shrink: 0;
-  padding-top: 3px;
 }
 
-/* Content */
+/* Text beside the icons */
 .contact-content {
   flex: 1;
+  min-width: 0;
 }
 
 /* Email */
@@ -73,112 +78,107 @@ main .universal-wrapper {
   color: #4f9f90;
   font-size: 17px;
   font-weight: 500;
+  line-height: 1.6;
   text-decoration: none;
+  overflow-wrap: anywhere;
 }
 
 .contact-email a:hover {
+  color: #397f73;
   text-decoration: underline;
 }
 
-/* Address */
+/* Mailing address */
 .contact-address {
   margin: 0;
-  font-style: normal;
   color: #4d5b63;
   font-size: 16px;
+  font-style: normal;
   line-height: 1.75;
 }
 
 /* Tablet */
-@media (max-width:1000px){
+@media screen and (max-width: 1000px) {
 
-main .container,
-main .universal-wrapper{
-width:calc(100% - 40px)!important;
-}
-
-.contact-section{
-max-width:650px;
-}
-
+  main .container,
+  main .universal-wrapper {
+    width: calc(100% - 40px) !important;
+  }
 }
 
 /* Mobile */
-@media (max-width:768px){
+@media screen and (max-width: 768px) {
 
-main .container,
-main .universal-wrapper{
-width:calc(100% - 30px)!important;
-}
+  main .container,
+  main .universal-wrapper {
+    width: calc(100% - 30px) !important;
+  }
 
-.contact-affiliation{
-font-size:17px;
-}
+  .contact-section {
+    margin-top: 20px;
+  }
 
-.contact-email a{
-font-size:16px;
-}
+  .contact-title {
+    font-size: 27px;
+  }
 
-.contact-address{
-font-size:15px;
-}
+  .contact-divider {
+    margin: 20px 0 26px;
+  }
 
-.contact-divider{
-margin:24px 0;
-}
+  .contact-icon {
+    width: 24px;
+    margin-right: 15px;
+    font-size: 19px;
+  }
 
-.contact-icon{
-font-size:19px;
-margin-right:15px;
-}
+  .contact-email a {
+    font-size: 16px;
+  }
 
+  .contact-address {
+    font-size: 15px;
+  }
 }
 
 </style>
 
 <div class="contact-section">
 
-<p class="contact-affiliation">
-University of Illinois Chicago<br>
-School of Public Health
-</p>
+  <h1 class="contact-title">Contact</h1>
 
-<div class="contact-divider"></div>
+  <div class="contact-divider"></div>
 
-<div class="contact-row">
+  <div class="contact-row">
 
-<div class="contact-icon">
-<i class="fas fa-envelope"></i>
-</div>
+    <div class="contact-icon">
+      <i class="fas fa-envelope"></i>
+    </div>
 
-<div class="contact-content">
+    <div class="contact-content">
+      <p class="contact-email">
+        <a href="mailto:rritaz@uic.edu">rritaz@uic.edu</a>
+      </p>
+    </div>
 
-<p class="contact-email">
-<a href="mailto:rritaz@uic.edu">rritaz@uic.edu</a>
-</p>
+  </div>
 
-</div>
+  <div class="contact-row">
 
-</div>
+    <div class="contact-icon">
+      <i class="fas fa-map-marker-alt"></i>
+    </div>
 
-<div class="contact-row">
+    <div class="contact-content">
+      <address class="contact-address">
+        Division of Epidemiology and Biostatistics<br>
+        School of Public Health<br>
+        University of Illinois Chicago<br>
+        1603 W. Taylor Street, MC 923<br>
+        Chicago, IL 60612
+      </address>
+    </div>
 
-<div class="contact-icon">
-<i class="fas fa-map-marker-alt"></i>
-</div>
-
-<div class="contact-content">
-
-<address class="contact-address">
-University of Illinois Chicago<br>
-School of Public Health<br>
-Division of Epidemiology and Biostatistics<br>
-1603 W. Taylor Street, MC 923<br>
-Chicago, IL 60612
-</address>
-
-</div>
-
-</div>
+  </div>
 
 </div>
