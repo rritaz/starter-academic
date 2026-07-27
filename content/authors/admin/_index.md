@@ -47,16 +47,18 @@ user_groups:
   - Visitors
 ---
 
-I am a Clinical Assistant Professor of Biostatistics at the University of Illinois Chicago, with appointments in the [School of Public Health, Division of Epidemiology and Biostatistics](https://publichealth.uic.edu/profiles/zejnullahi-rrita/) (primary), and the [College of Applied Health Sciences](https://ahs.uic.edu/profiles/zejnullahi-rrita/) (joint), and a Statistician in the Office of Research (https://ahs.uic.edu/inside-ahs/office-of-research/), College of Applied Health Sciences. 
+I am a Clinical Assistant Professor of Biostatistics at the University of Illinois Chicago, with appointments in the [School of Public Health, Division of Epidemiology and Biostatistics](https://publichealth.uic.edu/profiles/zejnullahi-rrita/) (primary), the [College of Applied Health Sciences](https://ahs.uic.edu/profiles/zejnullahi-rrita/) (joint), and serve as a Statistician in the [Office of Research](https://ahs.uic.edu/inside-ahs/office-of-research/), College of Applied Health Sciences.
 
 I develop and apply statistical methods to support evidence-based policy and decision-making in public health and social policy. This includes
+
 - extensions of meta-analysis methods to small sample situations,
 - the formulation of effect sizes and effect-size estimators for randomized and quasi-experiments when adjusting for covariates, and
 - the development and application of statistical methods to support refugee populations.
 
-I am also interested in generating empirical evidence about how policymakers and practitioners make decisions and in designing tools that better support their decision-making processes. 
+I am also interested in generating empirical evidence about how policymakers and practitioners make decisions and in designing tools that better support their decision-making processes.
 
-To date, I have worked on a range of substantive areas, including 
+To date, I have worked on a range of substantive areas, including
+
 - human rights statistics,
 - sports epidemiology,
 - mobility improvement among older adults and people with neurological disorders,
@@ -80,19 +82,14 @@ document.addEventListener("DOMContentLoaded", function () {
   const roleHeadings = document.querySelectorAll(".portrait-title h3");
 
   roleHeadings.forEach(function (heading) {
-    if (
-      heading.textContent.trim() ===
-      "Clinical Assistant Professor of Biostatistics"
-    ) {
+    if (heading.textContent.trim() === "Clinical Assistant Professor of Biostatistics") {
       const link = document.createElement("a");
 
-      link.href =
-        "https://publichealth.uic.edu/profiles/zejnullahi-rrita/";
+      link.href = "https://publichealth.uic.edu/profiles/zejnullahi-rrita/";
       link.target = "_blank";
       link.rel = "noopener";
       link.className = "faculty-role-link";
-      link.textContent =
-        "Clinical Assistant Professor of Biostatistics";
+      link.textContent = "Clinical Assistant Professor of Biostatistics";
 
       heading.textContent = "";
       heading.appendChild(link);
@@ -100,11 +97,3 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 </script>
-
-
-
-
-
-
-
-
