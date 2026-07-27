@@ -12,5 +12,9 @@ Conclusions: Knowing which NCAA student-athletes are most susceptible to suicide
 featured: true
 publication: "*Journal of American College Health*"
 # url_pdf: "pdf/aggregate_patterns_replication.pdf"
+
+tags:
+  - selected
+weight: 4
 ---
 
