@@ -68,7 +68,43 @@ To date, I have worked on a range of substantive areas, including
 - lifestyle interventions that promote mental health, and
 - the physiological mechanisms governing skeletal muscle blood flow during physical activity.
 
+<style>
+.faculty-role-link {
+  color: inherit !important;
+  text-decoration: none !important;
+}
 
+.faculty-role-link:hover {
+  color: #58ad9b !important;
+  text-decoration: underline !important;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const roleHeadings = document.querySelectorAll(".portrait-title h3");
+
+  roleHeadings.forEach(function (heading) {
+    if (
+      heading.textContent.trim() ===
+      "Clinical Assistant Professor of Biostatistics"
+    ) {
+      const link = document.createElement("a");
+
+      link.href =
+        "https://publichealth.uic.edu/profiles/zejnullahi-rrita/";
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.className = "faculty-role-link";
+      link.textContent =
+        "Clinical Assistant Professor of Biostatistics";
+
+      heading.textContent = "";
+      heading.appendChild(link);
+    }
+  });
+});
+</script>
 
 
 
