@@ -55,8 +55,15 @@
 {{ $count := len $query }}
 
 {{/* Sort */}}
-{{ $sort_by := $st.Params.content.sort_by | default "Date" }}
-{{ $query = sort $query $sort_by $items_sort }}
+{{ if eq $st.Params.content.filters.tag "selected" }}
+  {{ $query = $query.ByParam "homepage_order" }}
+{{ else }}
+  {{ if eq $items_sort "asc" }}
+    {{ $query = $query.ByDate }}
+  {{ else }}
+    {{ $query = $query.ByDate.Reverse }}
+  {{ end }}
+{{ end }}
 
 {{/* Offset and Limit */}}
 {{ if gt $items_offset 0 }}
