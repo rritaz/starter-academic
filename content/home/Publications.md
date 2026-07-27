@@ -7,19 +7,17 @@ weight = 40
 title = "Selected Publications"
 subtitle = ""
 
-page_type = "publication"
-count = 4
-offset = 0
-order = "desc"
-
 [content]
 page_type = "publication"
 count = 4
 offset = 0
-order = "desc"
+
+sort_by = "Params.homepage_order"
+sort_ascending = true
 
 [content.filters]
 folders = ["publication"]
+tag = "selected"
 featured_only = false
 
 [design]
