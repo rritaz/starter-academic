@@ -170,9 +170,9 @@ School of Public Health
 <div class="contact-content">
 
 <address class="contact-address">
-Division of Epidemiology and Biostatistics<br>
-School of Public Health<br>
 University of Illinois Chicago<br>
+School of Public Health<br>
+Division of Epidemiology and Biostatistics<br>
 1603 W. Taylor Street, MC 923<br>
 Chicago, IL 60612
 </address>
