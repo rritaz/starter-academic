@@ -1,5 +1,5 @@
 ---
-title: "Suicide Rates in National Collegiate Athletic Association (NCAA) Student-Athletes: A 12-Year Longitudinal Analysis"
+title: "Suicide rates in National Collegiate Athletic Association (NCAA) student-athletes: A 12-year longitudinal analysis"
 date: "2026"
 publishDate: 2026-01-02T00:00:00
 authors: ["Karrie L. Hamstra-Wright", "Ellie Gasso", "Rrita Zejnullahi", "John E. Coumbe-Lilley"]
