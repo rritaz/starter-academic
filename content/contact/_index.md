@@ -6,56 +6,49 @@ draft: false
 
 <style>
 
-/* Match the width of the rest of the website */
-main .container,
-main .universal-wrapper {
-  width: calc(100% - 60px) !important;
-  max-width: 1500px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  box-sizing: border-box !important;
+/* Remove the theme's automatic empty page heading */
+.article-header,
+.page-header {
+  display: none !important;
 }
 
-/* Main contact section */
-.contact-section {
+/* Contact page */
+.contact-page {
   width: 100%;
-  max-width: 650px;
-  margin: 25px 0 60px;
+  max-width: 700px;
+  margin: 20px 0 60px 0;
+  padding: 0;
 }
 
-/* Page title */
-.contact-title {
-  margin: 0;
+/* Contact title */
+.contact-page-title {
+  margin: 0 0 18px 0;
+  padding: 0;
   color: #2f4858;
   font-size: 30px;
   font-weight: 600;
-  line-height: 1.25;
+  line-height: 1.3;
 }
 
-/* Line below the title */
-.contact-divider {
+/* Horizontal line */
+.contact-line {
   width: 100%;
   height: 1px;
-  margin: 22px 0 30px;
-  background: #e5eaed;
+  margin: 0 0 30px 0;
+  background-color: #dfe5e8;
 }
 
-/* Contact rows */
-.contact-row {
+/* Each contact item */
+.contact-item {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 28px;
+  margin: 0 0 28px 0;
 }
 
-.contact-row:last-child {
-  margin-bottom: 0;
-}
-
-/* Icons */
-.contact-icon {
+/* Contact icons */
+.contact-item-icon {
   width: 26px;
-  margin-right: 18px;
-  padding-top: 3px;
+  margin: 3px 18px 0 0;
   color: #58ad9b;
   font-size: 20px;
   line-height: 1;
@@ -63,24 +56,16 @@ main .universal-wrapper {
   flex-shrink: 0;
 }
 
-/* Text beside the icons */
-.contact-content {
-  flex: 1;
-  min-width: 0;
-}
-
 /* Email */
 .contact-email {
   margin: 0;
+  font-size: 17px;
+  line-height: 1.6;
 }
 
 .contact-email a {
   color: #4f9f90;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 1.6;
   text-decoration: none;
-  overflow-wrap: anywhere;
 }
 
 .contact-email a:hover {
@@ -88,7 +73,7 @@ main .universal-wrapper {
   text-decoration: underline;
 }
 
-/* Mailing address */
+/* Address */
 .contact-address {
   margin: 0;
   color: #4d5b63;
@@ -97,42 +82,29 @@ main .universal-wrapper {
   line-height: 1.75;
 }
 
-/* Tablet */
-@media screen and (max-width: 1000px) {
-
-  main .container,
-  main .universal-wrapper {
-    width: calc(100% - 40px) !important;
-  }
-}
-
 /* Mobile */
 @media screen and (max-width: 768px) {
 
-  main .container,
-  main .universal-wrapper {
-    width: calc(100% - 30px) !important;
+  .contact-page {
+    max-width: 100%;
+    margin-top: 15px;
   }
 
-  .contact-section {
-    margin-top: 20px;
-  }
-
-  .contact-title {
+  .contact-page-title {
     font-size: 27px;
   }
 
-  .contact-divider {
-    margin: 20px 0 26px;
+  .contact-line {
+    margin-bottom: 25px;
   }
 
-  .contact-icon {
-    width: 24px;
-    margin-right: 15px;
-    font-size: 19px;
+  .contact-item-icon {
+    width: 22px;
+    margin-right: 14px;
+    font-size: 18px;
   }
 
-  .contact-email a {
+  .contact-email {
     font-size: 16px;
   }
 
@@ -143,42 +115,34 @@ main .universal-wrapper {
 
 </style>
 
-<div class="contact-section">
+<div class="contact-page">
 
-  <h1 class="contact-title">Contact</h1>
+  <div class="contact-page-title">Contact</div>
 
-  <div class="contact-divider"></div>
+  <div class="contact-line"></div>
 
-  <div class="contact-row">
-
-    <div class="contact-icon">
+  <div class="contact-item">
+    <div class="contact-item-icon">
       <i class="fas fa-envelope"></i>
     </div>
 
-    <div class="contact-content">
-      <p class="contact-email">
-        <a href="mailto:rritaz@uic.edu">rritaz@uic.edu</a>
-      </p>
-    </div>
-
+    <p class="contact-email">
+      <a href="mailto:rritaz@uic.edu">rritaz@uic.edu</a>
+    </p>
   </div>
 
-  <div class="contact-row">
-
-    <div class="contact-icon">
+  <div class="contact-item">
+    <div class="contact-item-icon">
       <i class="fas fa-map-marker-alt"></i>
     </div>
 
-    <div class="contact-content">
-      <address class="contact-address">
-        Division of Epidemiology and Biostatistics<br>
-        School of Public Health<br>
-        University of Illinois Chicago<br>
-        1603 W. Taylor Street, MC 923<br>
-        Chicago, IL 60612
-      </address>
-    </div>
-
+    <address class="contact-address">
+      Division of Epidemiology and Biostatistics<br>
+      School of Public Health<br>
+      University of Illinois Chicago<br>
+      1603 W. Taylor Street, MC 923<br>
+      Chicago, IL 60612
+    </address>
   </div>
 
 </div>
