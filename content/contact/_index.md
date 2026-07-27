@@ -6,7 +6,7 @@ draft: false
 
 <style>
 
-/* Align page with the rest of the site */
+/* Align the page with the rest of the website */
 main .container,
 main .universal-wrapper {
   width: calc(100% - 60px) !important;
@@ -24,50 +24,34 @@ main .universal-wrapper {
 
 /* Centered contact card */
 .contact-card {
+  width: 100%;
   max-width: 700px;
   margin: 0 auto;
-  padding: 55px 60px;
-  background: #fff;
+  padding: 50px 60px;
+  background: #ffffff;
   border: 1px solid #e5eaed;
   border-radius: 10px;
-  box-shadow: 0 3px 14px rgba(0,0,0,.05);
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
 }
 
-/* Name */
-.contact-name {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 42px;
-  font-weight: 400;
-  color: #222;
-  line-height: 1.2;
-  margin: 0 0 14px;
-}
-
-/* Position */
-.contact-position {
-  font-size: 15px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #666;
+/* University affiliation */
+.contact-affiliation {
   margin: 0;
+  color: #2f3c42;
+  font-size: 18px;
+  line-height: 1.7;
 }
 
 /* Divider */
 .contact-divider {
+  width: 100%;
   height: 1px;
+  margin: 30px 0;
   background: #e5eaed;
-  margin: 32px 0;
 }
 
-/* University */
-.contact-affiliation {
-  font-size: 18px;
-  line-height: 1.7;
-  color: #2f3c42;
-  margin: 0;
-}
-
-/* Rows */
+/* Contact rows */
 .contact-row {
   display: flex;
   align-items: flex-start;
@@ -82,15 +66,18 @@ main .universal-wrapper {
 .contact-icon {
   width: 28px;
   margin-right: 22px;
+  padding-top: 3px;
   color: #58ad9b;
   font-size: 22px;
+  line-height: 1;
   text-align: center;
   flex-shrink: 0;
 }
 
-/* Content */
+/* Row content */
 .contact-content {
   flex: 1;
+  min-width: 0;
 }
 
 /* Email */
@@ -100,75 +87,77 @@ main .universal-wrapper {
 
 .contact-email a {
   color: #3f8f81;
-  text-decoration: none;
   font-size: 18px;
   font-weight: 500;
+  line-height: 1.6;
+  text-decoration: none;
+  overflow-wrap: anywhere;
 }
 
 .contact-email a:hover {
+  color: #2f7166;
   text-decoration: underline;
 }
 
-/* Address */
+/* Mailing address */
 .contact-address {
   margin: 0;
-  font-style: normal;
-  font-size: 17px;
-  line-height: 1.75;
   color: #2f3c42;
+  font-size: 17px;
+  font-style: normal;
+  line-height: 1.75;
 }
 
 /* Tablet */
-@media (max-width:1000px){
+@media screen and (max-width: 1000px) {
 
-main .container,
-main .universal-wrapper{
-width:calc(100% - 40px)!important;
-}
+  main .container,
+  main .universal-wrapper {
+    width: calc(100% - 40px) !important;
+  }
 
-.contact-card{
-padding:45px;
-}
-
+  .contact-card {
+    padding: 45px;
+  }
 }
 
 /* Mobile */
-@media (max-width:768px){
+@media screen and (max-width: 768px) {
 
-main .container,
-main .universal-wrapper{
-width:calc(100% - 30px)!important;
-}
+  main .container,
+  main .universal-wrapper {
+    width: calc(100% - 30px) !important;
+  }
 
-.contact-card{
-padding:35px 28px;
-}
+  .contact-section {
+    margin-top: 20px;
+  }
 
-.contact-name{
-font-size:34px;
-}
+  .contact-card {
+    padding: 35px 28px;
+  }
 
-.contact-position{
-font-size:13px;
-letter-spacing:1.5px;
-}
+  .contact-affiliation {
+    font-size: 17px;
+  }
 
-.contact-affiliation{
-font-size:17px;
-}
+  .contact-divider {
+    margin: 25px 0;
+  }
 
-.contact-address{
-font-size:16px;
-}
+  .contact-icon {
+    width: 25px;
+    margin-right: 15px;
+    font-size: 20px;
+  }
 
-.contact-email a{
-font-size:17px;
-}
+  .contact-email a {
+    font-size: 17px;
+  }
 
-.contact-divider{
-margin:25px 0;
-}
-
+  .contact-address {
+    font-size: 16px;
+  }
 }
 
 </style>
@@ -176,16 +165,6 @@ margin:25px 0;
 <div class="contact-section">
 
 <div class="contact-card">
-
-<div class="contact-name">
-Rrita Zejnullahi
-</div>
-
-<p class="contact-position">
-Clinical Assistant Professor of Biostatistics
-</p>
-
-<div class="contact-divider"></div>
 
 <p class="contact-affiliation">
 University of Illinois Chicago<br>
@@ -219,9 +198,9 @@ School of Public Health
 <div class="contact-content">
 
 <address class="contact-address">
-University of Illinois Chicago<br>
-School of Public Health<br>
 Division of Epidemiology and Biostatistics<br>
+School of Public Health<br>
+University of Illinois Chicago<br>
 1603 W. Taylor Street, MC 923<br>
 Chicago, IL 60612
 </address>
