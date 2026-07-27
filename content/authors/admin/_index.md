@@ -1,57 +1,53 @@
 ---
 # Display name
-name: Rrita Zejnullahi 
+title: Rrita Zejnullahi
 
-# Username (this should match the folder name)
-authors: Rrita Zejnullahi
-- admin
+# Username
+authors:
+  - admin
 
-# Is this the primary user of the site?
+# Primary user
 superuser: true
 
 # Role/position
 role: Clinical Assistant Professor of Biostatistics
 
-# Organizations/Affiliations
+# Organization
 organizations:
-- name: University of Illinois Chicago 
-  url: ""
+  - name: University of Illinois Chicago
+    url: ""
 
-
-
-
-# Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+# Social links
 social:
-- icon: envelope
-  icon_pack: fas
-  link: "mailto:rritaz@uic.edu" 
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=1DLY2Z8AAAAJ&hl=en
-- icon: github
-  icon_pack: fab
-  link: https://github.com/rritaz
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/in/rrita-zejnullahi-79307b21b/
-- icon: cv
-  icon_pack: ai
-  link: /files/cv.pdf
-  
+  - icon: envelope
+    icon_pack: fas
+    link: "mailto:rritaz@uic.edu"
 
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=1DLY2Z8AAAAJ&hl=en
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/rritaz
+
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/rrita-zejnullahi-79307b21b/
+
+  - icon: cv
+    icon_pack: ai
+    link: /files/cv.pdf
+
+# Email
 email: "rritaz@uic.edu"
-  
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.  
+
+# Organizational groups
 user_groups:
-- Researchers
-- Visitors
+  - Researchers
+  - Visitors
 ---
+
 I am a Clinical Assistant Professor of Biostatistics at the University of Illinois Chicago, with appointments in the [School of Public Health, Division of Epidemiology and Biostatistics](https://publichealth.uic.edu/) (primary), and the [College of Applied Health Sciences](https://ahs.uic.edu/) (joint), and a Statistician in the Office of Research, College of Applied Health Sciences. 
 
 I develop and apply statistical methods to support evidence-based policy and decision-making in public health and social policy. This includes
