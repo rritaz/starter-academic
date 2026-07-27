@@ -26,10 +26,6 @@ social:
     icon_pack: ai
     link: https://scholar.google.com/citations?user=1DLY2Z8AAAAJ&hl=en
 
-  - icon: user-graduate
-    icon_pack: fas
-    link: https://publichealth.uic.edu/profiles/zejnullahi-rrita/
-
   - icon: github
     icon_pack: fab
     link: https://github.com/rritaz
@@ -51,7 +47,7 @@ user_groups:
   - Visitors
 ---
 
-I am a Clinical Assistant Professor of Biostatistics at the University of Illinois Chicago, with appointments in the [School of Public Health, Division of Epidemiology and Biostatistics](https://publichealth.uic.edu/) (primary), and the [College of Applied Health Sciences](https://ahs.uic.edu/) (joint), and a Statistician in the Office of Research, College of Applied Health Sciences. 
+I am a Clinical Assistant Professor of Biostatistics at the University of Illinois Chicago, with appointments in the [School of Public Health, Division of Epidemiology and Biostatistics](https://publichealth.uic.edu/profiles/zejnullahi-rrita/) (primary), and the [College of Applied Health Sciences](https://ahs.uic.edu/profiles/zejnullahi-rrita/) (joint), and a Statistician in the Office of Research, College of Applied Health Sciences. 
 
 I develop and apply statistical methods to support evidence-based policy and decision-making in public health and social policy. This includes
 - extensions of meta-analysis methods to small sample situations,
