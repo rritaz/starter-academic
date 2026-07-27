@@ -8,5 +8,9 @@ abstract: "Conventional random-effects models in meta-analysis rely on large sam
 featured: true
 publication: "*Research Synthesis Methods*"
 # url_pdf: "pdf/aggregate_patterns_replication.pdf"
+
+tags:
+  - selected
+weight: 1
 ---
 
