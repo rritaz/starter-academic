@@ -8,5 +8,9 @@ abstract: "In this special issue, we aim to lay the groundwork for statistical s
 featured: true
 publication: "*CHANCE*"
 # url_pdf: "pdf/aggregate_patterns_replication.pdf"
+
+tags:
+  - selected
+weight: 3
 ---
 
