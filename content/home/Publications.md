@@ -20,7 +20,7 @@ order = "desc"
 
 [content.filters]
 folders = ["publication"]
-featured_only = false
+featured_only = true
 
 [design]
 view = 2
