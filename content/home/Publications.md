@@ -7,11 +7,6 @@ weight = 40
 title = "Selected Publications"
 subtitle = ""
 
-page_type = "publication"
-count = 5
-offset = 0
-order = "desc"
-
 [content]
 page_type = "publication"
 count = 5
