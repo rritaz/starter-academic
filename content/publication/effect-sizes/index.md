@@ -9,5 +9,9 @@ featured: true
 publication: "*British Journal of Mathematical and Statistical Psychology*"
 # url_pdf: "pdf/aggregate_patterns_replication.pdf"
 doi: "10.1111/bmsp.12296"
+
+tags:
+  - selected
+weight: 2
 ---
 
