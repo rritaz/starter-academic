@@ -5,18 +5,27 @@ active = true
 weight = 40
 
 title = "Selected Publications"
+subtitle = ""
+
+page_type = "publication"
+count = 4
+offset = 0
+order = "desc"
 
 [content]
 page_type = "publication"
 count = 4
-sort_by = "Weight"
-sort_ascending = true
+offset = 0
+order = "desc"
 
 [content.filters]
 folders = ["publication"]
-tags = ["selected"]
+featured_only = false
 
 [design]
 view = 2
 columns = "2"
+
+[design.spacing]
+padding = ["40px", "0", "40px", "0"]
 +++
