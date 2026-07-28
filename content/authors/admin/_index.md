@@ -53,7 +53,7 @@ I develop and apply statistical methods to support evidence-based policy and dec
 
 - extensions of meta-analysis methods to small sample situations,
 - the formulation of effect sizes and effect-size estimators for randomized and quasi-experiments when adjusting for covariates, and
-- the development and application of statistical methods to support refugee populations.
+- the development and application of statistical methods related to refugee populations.
 
 To date, I have worked on a range of substantive areas, including
 
