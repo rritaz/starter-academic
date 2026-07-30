@@ -16,7 +16,7 @@ offset = 0
 tag = "selected"
 
 [design]
-view = 1
+view = 4
 columns = "2"
 
 [design.spacing]
